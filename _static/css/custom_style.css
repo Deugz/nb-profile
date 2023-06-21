@@ -1,0 +1,511 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+html {
+  height: 100%;
+}
+
+p {
+    text-align: justify;
+}
+
+.center-text {
+margin: auto;
+display: flex;
+justify-content: center;
+
+}
+
+h1 {
+    font-family: Garamond;
+    text-align: center !important ;
+    padding:20px !important;
+    margin-bottom:30px; ;
+    font-size: 5em !important; 
+    color: black !important; 
+}
+
+
+#site-title.site-logo {
+  font-size: 1.4em !important; 
+  margin: 0 !important;
+  padding-top: 40px !important;  
+  border: 0 !important;
+}
+
+h2 {
+    color: white !important;
+    font-size: 2.4em !important;
+    margin-top:50px !important;
+    margin-bottom:30px !important;
+    font-family: Garamond;
+    text-align: center !important ;
+    padding: 15px !important;
+    background: linear-gradient(to bottom right, #003300 0%, #009933 120%);
+    border-radius: 10px;
+    width: 100% !important;
+}
+
+h3 {
+    font-size: 2.5em !important;
+    font-style: bold !important;
+    color: #145a32 !important;
+    margin-top:50px !important;
+    margin-bottom:40px !important;
+    font-family: Garamond;
+    text-align: left !important ;
+    padding:20px !important;
+}
+
+
+h4 {
+    font-size: 1.8em !important;
+    color: #f39c12 !important;
+    font-style: bold !important;
+    margin-left:50px !important;
+    margin-top:50px !important;
+    margin-bottom:40px !important;
+}
+
+h5 {
+    margin-left:100px !important;
+    font-size: 1.5em !important;
+    color: #7d3c98 !important;
+    margin-top:50px !important;
+    margin-bottom:40px !important;
+}
+
+.embedresize {
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 30px;
+            height: 0;
+            overflow: hidden;
+}
+
+.embedresize iframe,
+.embedresize object,
+.embedresize embed {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+}
+
+img[alt$=">"] {
+  width: 20px !important;
+  margin: 5px !important;
+}
+
+img[alt$=">>"] {
+  width: 60px !important;
+  margin-left:5px !important;
+  margin-top:0px !important;
+}
+
+img[alt$="<"] {
+  width: 60px !important;
+  margin-left:5px !important;
+  margin-top:0px !important;
+  float: left !important;
+}
+
+.small {
+  width: 20px !important;
+  margin: 5px !important;
+}
+
+
+.emphase {
+    font-size:1.4em;
+    padding:20px;
+    text-align:center;
+}
+
+.emphase2 {
+    font-size:2.6em;
+    padding:20px;
+    text-align:center;
+    color: #412582  !important;
+}
+
+.picto {
+  width: 20px !important;
+  margin: 5px !important;  
+    
+}
+
+.blackboard {
+position: relative;
+width: 800px;
+min-height: 400px;
+margin: 7% auto;
+border: tan solid 12px;
+border-top: #bda27e solid 12px;
+border-left: #b19876 solid 12px;
+border-bottom: #c9ad86 solid 12px;
+box-shadow: 0px 0px 6px 5px rgba(58, 18, 13, 0), 0px 0px 0px 2px #c2a782, 0px 0px 0px 4px #a58e6f, 3px 4px 8px 5px rgba(0, 0, 0, 0.5);
+background-image: radial-gradient( circle at left 30%, rgba(34, 34, 34, 0.3), rgba(34, 34, 34, 0.3) 80px, rgba(34, 34, 34, 0.5) 100px, rgba(51, 51, 51, 0.5) 160px, rgba(51, 51, 51, 0.5)), linear-gradient( 215deg, transparent, transparent 100px, #222 260px, #222 320px, transparent), radial-gradient( circle at right, #111, rgba(51, 51, 51, 1));
+background-color: #333;
+}
+
+.form {
+padding: 20px 20px 20px 20px;
+}
+
+.blackboard li {
+vertical-align: middle;
+font-family: 'Permanent Marker', cursive;
+padding: 5px;
+margin-left: 10px;    
+font-size: 1.2em;
+color: rgba(238, 238, 238, 0.7);
+}
+
+.blackboard ul {
+vertical-align: middle;
+font-family: 'Permanent Marker', cursive;   
+font-size: 1em;
+color: rgba(238, 238, 238, 0.7);
+}
+
+#P1
+
+{
+width: 100%;
+display: flex;
+}
+
+#colour
+
+{
+background-color:#FFF8E7;
+margin-top: 25px;
+padding: 10px;
+border-radius: 5px;
+}
+
+#note
+
+{
+padding: 5px;
+border-radius: 5px;
+box-shadow: 0 3px 8px 0 grey;
+background-color:#FFF8E7 !important;    
+}
+
+#subdiv2
+{
+width:50%;
+padding: 10px;
+}
+
+#subdiv2-3
+{
+width:66%;
+padding: 10px;
+}
+
+#subdiv1-3
+{
+width:33%;
+padding: 10px;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+/* 	Button */
+
+.button {
+  position:relative;
+  display: inline-block;
+  border-radius: 8px;
+  background-color: purple;
+  border:1px solid black;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 1);
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  min-width:200px;
+  width: auto;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: auto;
+}
+
+.button span {
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(237, 210, 22);
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button a {
+  text-decoration: none !important;
+  color: rgb(237, 210, 22) !important;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* 	Hovered text */
+
+.hovertext {
+  position: relative;
+  border-bottom: 1px dotted black;
+}
+
+.hovertext:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  min-width: 200px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 5px;
+  transition: opacity 1s ease-in-out;
+
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 110%;
+}
+
+.hovertext:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+
+/* 	Slideshow simple */
+
+
+#sticky-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: calc((100% - -700px) / 2);
+  bottom: 0;  
+  padding: 5px;
+  transition: 375ms ease-in-out all;
+  transform: translateY(-100%);
+}
+#sticky-video .video-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  padding-bottom: 56.25%;
+}
+#sticky-video .video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 240px;
+  height: 135px;
+  box-shadow: 0 3px 6px rgba(200, 200, 200, 0.6);
+}
+
+@media screen and (max-width: 700px) {
+  #sticky-video {
+    right: 0;
+  }
+}
+
+.blackboard {
+position: relative;
+width: auto;    
+min-width: 400px;    
+min-height: 400px;
+margin: 7% auto;
+border: tan solid 12px;
+border-top: #bda27e solid 12px;
+border-left: #b19876 solid 12px;
+border-bottom: #c9ad86 solid 12px;
+box-shadow: 0px 0px 6px 5px rgba(58, 18, 13, 0), 0px 0px 0px 2px #c2a782, 0px 0px 0px 4px #a58e6f, 3px 4px 8px 5px rgba(0, 0, 0, 0.5);
+background-image: radial-gradient( circle at left 30%, rgba(34, 34, 34, 0.3), rgba(34, 34, 34, 0.3) 80px, rgba(34, 34, 34, 0.5) 100px, rgba(51, 51, 51, 0.5) 160px, rgba(51, 51, 51, 0.5)), linear-gradient( 215deg, transparent, transparent 100px, #222 260px, #222 320px, transparent), radial-gradient( circle at right, #111, rgba(51, 51, 51, 1));
+background-color: #333;
+}
+
+.form {
+padding: 20px 20px 20px 20px;
+}
+
+.blackboard li {
+vertical-align: middle;
+font-family: 'Permanent Marker', cursive;
+padding: 5px;
+margin-left: 10px;    
+font-size: 1.2em;
+color: rgba(238, 238, 238, 0.7);
+}
+
+.blackboard ul {
+vertical-align: middle;
+font-family: 'Permanent Marker', cursive;   
+font-size: 1em;
+color: rgba(238, 238, 238, 0.7);
+}
+
+#transition-img {
+  width: 100%;
+  max-width: 100%;
+  margin: 50px auto;
+  box-shadow: 1px 5px 20px 0px #ddd;
+  overflow: hidden;
+}
+
+#transition-img .images-JWST {
+  width: 100%;
+  height: 220px;
+  position: relative;
+  padding: Opx !important;
+}
+
+
+#transition-img img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  transition: 0.5s 0.1s ease-out;
+  padding: Opx !important;
+}
+
+#transition-img .one {
+  left: -100%;
+}
+
+#transition-img figcaption {
+  line-height: 1.6;
+  padding: 10px;
+}
+
+#transition-img:hover .one,
+#transition-img:hover .two {
+  transform: translateX(100%);
+}
+
+/* Slideshow container */
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  margin-right: 10px;  
+
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  border-radius: 5px;  
+  background-color: #FFF8E7 !important;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+

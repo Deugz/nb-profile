@@ -1,0 +1,134 @@
+.flip-card,
+.flip-box,
+.front,
+.back {
+  width: 100%;
+  min-width:325px;
+  height: auto;
+  min-height: 845px;
+  border-radius: 10px;
+}
+
+.flip-card,
+.flip_box {
+  position: relative;
+}
+
+
+.front,
+.back {
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card {
+  -moz-transform: perspective(1200px);
+  -webkit-perspective: 1200px;
+  perspective: 1200px;
+}
+
+.flip_box {
+  transition: all 0.5s ease-out;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.front {
+  background-color: #024395;
+  background-image: url('../Images/Space_Pics/Molecular_cloud_Pillar_cut.png');
+  background-position: center top;
+  background-size: cover;
+}
+
+
+.back {
+  background: linear-gradient(to bottom right, #003300 0%, #009933 120%);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+
+.flipped {
+  -webkit-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  -ms-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+}
+
+.r_wrap {
+  position: absolute;
+  right: 40px;
+  bottom: 38px;
+}
+
+.b_round,
+.s_round {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: #D21849;
+  transition: all 0.2s linear;
+}
+
+.b_round {
+  opacity: 0;
+  background-color: #D21849;
+}
+
+.b_round_hover {
+  transform: scale(1.37);
+  opacity: 0.4;
+}
+
+.b_round_back_hover {
+  background-color: #F60044;
+}
+
+.s_round_click {
+  transform: scale(1.7);
+}
+
+.s_round_back {
+  background-color: #C30C3D;
+}
+
+.s_arrow {
+  width: 52px;
+  height: 52px;
+  background-image: url('https://img-fotki.yandex.ru/get/194549/29644339.5/0_d6c60_1d7815f0_orig');
+  background-color: transparent;
+  transition: all 0.35s linear;
+}
+
+.s_arrow_rotate {
+  transform: rotate(-180deg);
+}
+
+.b_headline {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-size: 1.6em;  
+  padding-top: 40px;
+}
+
+.b_text {
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 28px;
+  padding: 10px;
+  opacity: 0.9;
+}

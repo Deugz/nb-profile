@@ -1,0 +1,34 @@
+/* Bonsai */
+
+#container_bonsai{
+  width: 300px;
+  height:300px;
+  overflow: hidden;
+  background-color:#e6ffff;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  margin: auto;
+}    
+
+/* Science Black Box */
+    
+#science_bb{
+  width: 100%;
+  height: 580px;
+  display: block;
+  overflow: hidden;
+  background-color: #272727;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;  
+}
+
+#pancake{
+  width: 100%;
+  height:100%;
+  overflow: hidden;
+  cursor: pointer;
+}

@@ -1,0 +1,276 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#"
+     xml:base="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+        <rdfs:comment>This is the place where I try things</rdfs:comment>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Blog"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#isFolder -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#isFolder"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#isMarkdown -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#isMarkdown"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Anaconda_JB -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Anaconda_JB">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Help"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Appendix -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Appendix">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#MASTER"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Binder_JB -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Binder_JB">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Help"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Blog -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Blog">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#MASTER"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#CV -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#CV">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#MASTER"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Contribute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Contribute">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Projects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Github_JB -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Github_JB">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Help"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Help -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Help">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Appendix"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Help_main -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Help_main">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Appendix"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Litterature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Litterature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#MASTER"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#MASTER -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#MASTER"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Manifesto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Manifesto">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Projects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Projects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Projects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#MASTER"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Research -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Research">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#MASTER"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Research_main -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Research_main">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Research"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Science_ft_People -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Science_ft_People">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Projects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#SemanticWeb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#SemanticWeb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Help"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Style_guide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Style_guide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Help"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Teaching -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Teaching">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#MASTER"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Teaching_Main -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Teaching_Main">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Teaching"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#The_Turing_Way -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#The_Turing_Way">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Help"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Post -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Post">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Blog"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Anaconda_JB"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Binder_JB"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Github_JB"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#SemanticWeb"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#Style_guide"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vmrd3/ontologies/2022/10/Master#The_Turing_Way"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
