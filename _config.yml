@@ -46,7 +46,10 @@ html:
     utterances              : 
       repo: "https://github.com/Deugz/nb-master"
   announcement              : "⚠ In Development  ⚠"
-
+  icon_links: 
+      name: "Twitter"
+      url: "https://twitter.com/PyData"
+      icon: "🏠"
 
 sphinx:
   config:
@@ -56,3 +59,6 @@ sphinx:
   extra_extensions:
   - sphinx_design
   - sphinx.ext.intersphinx
+  - sphinx_new_tab_link
+  
+  

@@ -3,7 +3,14 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: CV/CV_Main
-- file: Scientific_Interests/Interests
-- file: Ikigai/Ikigai
+parts:
+  - caption: ""
+    chapters:
+    - url: https://deugz.github.io/sp-Science_Journey/build/html/index.html
+      title: "🏠 Home"
+  - caption: Curriculum Vitae
+    chapters:
+    - file: CV/CV_Main
+    - file: Scientific_Interests/Interests
+    - file: feed
+    - file: Ikigai/Ikigai
