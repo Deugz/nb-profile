@@ -11,6 +11,16 @@ parts:
   - caption: Curriculum Vitae
     chapters:
     - file: CV/CV_Main
-    - file: Scientific_Interests/Interests
+    - file: CV/Web-Dev
+  - caption: Interests
+    chapters:    
+    - file: Interests/Scientific-Interests
+    - file: Interests/Societal-interests
+    - file: Interests/Politics    
+  - caption: Friends
+    chapters:  
+    - file: Friends/Friends
+  - caption: Perso
+    chapters: 
     - file: feed
     - file: Ikigai/Ikigai

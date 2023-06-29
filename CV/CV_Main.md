@@ -1,4 +1,4 @@
-# Curriculum Vitae
+# Academic CV
 
 ::::::{div} full-width
 

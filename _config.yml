@@ -34,10 +34,9 @@ html:
   extra_navbar              : ""
   extra_footer: |
   
-  
-  
-    <br><img class="CC_licence" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" alt="Licence CC BY NC SA 2"/> 
-    
+      <img class="Green-WS" src="https://api.thegreenwebfoundation.org/greencheckimage/deugz.github.io?nocache=true" alt="This website is hosted Green - checked by thegreenwebfoundation.org"/><br><img class="CC_licence" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" alt="Licence CC BY NC SA 2"/>  
+   
+   
 #  google_analytics_id       : G-CPYX9S0KDS  
   home_page_in_navbar       : false
   baseurl                   : "https://deugz.github.io/nb-profile/_build/html/"
@@ -46,10 +45,6 @@ html:
     utterances              : 
       repo: "https://github.com/Deugz/nb-master"
   announcement              : "⚠ In Development  ⚠"
-  icon_links: 
-      name: "Twitter"
-      url: "https://twitter.com/PyData"
-      icon: "🏠"
 
 sphinx:
   config:
