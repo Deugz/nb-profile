@@ -496,11 +496,10 @@ Les sciences se sont-elles penchés sur les effets des psylocibes dans le proces
 
 <p class="emphase">De tes experiences de vie, ainsi que les <strong>connaissances aquises au grés de tes pérégrinations sur les chemins du savoir</strong></p>
 
-
-::::{grid} 
-
-:::{grid-item}
-:columns: 6
+<div id="P1">
+    
+<div id="subdiv2">
+    
 
 Je navigue dans ce terreau vertile qu'est internet et ...   
 
@@ -511,12 +510,11 @@ Suis mes interets ...
 
 Parcours étéroclite
 
+</div>
+    
+<div id="subdiv2">
 
 
-:::
-
-:::{grid-item}
-:columns: 6
 
 ```{figure} Docs/mycelium-1.jpg
 
@@ -524,11 +522,38 @@ Parcours étéroclite
 
 ```
 
+<br>
+
+::::{grid} 2 
+    
+:::{grid-item}
+:columns: 6
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets10.lottiefiles.com/packages/lf20_rbexkvmr.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;"  loop  autoplay></lottie-player>
+
+
+
+:::
+    
+:::{grid-item}
+:columns: 6
+
+- Semantic Web
+- Scientific Publication
+- ...
+   
 
 :::
 
 ::::
 
+</div>
+    
+    
+</div>
+    
+    
 :::::
 
 
@@ -561,7 +586,7 @@ Et voila le <strong>Résultat</strong> ...<br>
 :link: https://deugz.github.io/Encyclopedia-Home/build/html/index.html
 :class-header: bg-light
 
-**Website** ![flag alt >](_static/Svg_icons/web-svgrepo-com.svg)
+**Encyclopedia 3.A** ![flag alt >](_static/Svg_icons/web-svgrepo-com.svg)
 ^^^
 
 <br>

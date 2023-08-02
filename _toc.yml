@@ -9,6 +9,7 @@ parts:
     - file: Comment
   - caption: Infos
     chapters:
+    - file: Profile    
     - file: CV/CV_Main
     - file: CV/Web-Dev
     - file: Playlist/Playlist
