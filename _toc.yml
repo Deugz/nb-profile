@@ -6,21 +6,32 @@ root: intro
 parts:
   - caption: ""
     chapters:
-    - url: https://deugz.github.io/sp-Science_Journey/build/html/index.html
-      title: "🏠 Home"
-  - caption: Curriculum Vitae
+    - file: Comment
+  - caption: Infos
     chapters:
     - file: CV/CV_Main
     - file: CV/Web-Dev
+    - file: Playlist/Playlist
   - caption: Interests
     chapters:    
     - file: Interests/Scientific-Interests
-    - file: Interests/Societal-interests
+    - file: Interests/Education
+    - file: Interests/Music
+    - file: Interests/Pharma
     - file: Interests/Politics    
   - caption: Friends
     chapters:  
     - file: Friends/Friends
+    - file: Friends/Collabs/Collab
+      sections: 
+      - file: Friends/Collabs/Lillian
+      - file: Friends/Collabs/Ross
   - caption: Perso
     chapters: 
-    - file: feed
+    - file: Tools/Orga
+      sections: 
+      - file: Tools/Pomodoro
+      - file: Tools/EDT
     - file: Ikigai/Ikigai
+    - file: feed
+

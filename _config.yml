@@ -3,7 +3,7 @@
 
 title: "PROFILE"
 author: <strong>Vincent Deguin</strong> (with ❤️)
-logo: _static/Logo/logo_SFTP.png
+logo: _static/Images/profile-pic-round_4.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -47,13 +47,44 @@ html:
   announcement              : "⚠ In Development  ⚠"
 
 sphinx:
-  config:
-    language: en
-    bibtex_reference_style: author_year
-    html_show_copyright: false
   extra_extensions:
   - sphinx_design
   - sphinx.ext.intersphinx
   - sphinx_new_tab_link
+  config:
+    language: en
+    bibtex_reference_style: author_year
+    html_show_copyright: false
+    html_theme_options: {
+    
+    "icon_links": [
+        {
+            "name": "Home",
+            "url": "https://deugz.github.io/Encyclopedia-Home/build/html/index.html",
+            "icon": "fa-solid fa-house",
+        },
+        {
+            "name": "Profile",
+            "url": "https://deugz.github.io/nb-profile/_build/html/intro.html",
+            "icon": "fa-solid fa-user",
+        },
+        {
+            "name": "Blog",
+            "url": "https://deugz.github.io/ab-blog/_website/index.html",
+            "icon": "fa-solid fa-blog",
+        },
+        {
+            "name": "Tools",
+            "url": "https://deugz.github.io/nb-tools/_build/html/intro.html",
+            "icon": "fa-solid fa-screwdriver-wrench",
+        },
+        {
+            "name": "Forum",
+            "url": "https://deugz.github.io",
+            "icon": "fa-solid fa-comments",
+        },
+    ],
+    
+    }
   
   

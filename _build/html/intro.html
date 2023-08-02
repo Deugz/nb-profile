@@ -44,11 +44,13 @@
     <link rel="stylesheet" type="text/css" href="_static/css/custom_style.css" />
     <link rel="stylesheet" type="text/css" href="_static/css/CV_1.css" />
     <link rel="stylesheet" type="text/css" href="_static/css/kittons.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/pomodoro-style.css" />
     <link rel="stylesheet" type="text/css" href="_static/css/style_book_shell.css" />
     <link rel="stylesheet" type="text/css" href="_static/css/style_flipping_card.css" />
     <link rel="stylesheet" type="text/css" href="_static/css/style_wheel.css" />
     <link rel="stylesheet" type="text/css" href="_static/css/.ipynb_checkpoints/custom_style-checkpoint.css" />
     <link rel="stylesheet" type="text/css" href="_static/css/.ipynb_checkpoints/kittons-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/.ipynb_checkpoints/pomodoro-style-checkpoint.css" />
     <link rel="stylesheet" type="text/css" href="_static/css/.ipynb_checkpoints/style_business_canvas-checkpoint.css" />
     <link rel="stylesheet" type="text/css" href="_static/css/.ipynb_checkpoints/style_flipping_card-checkpoint.css" />
     <link rel="stylesheet" type="text/css" href="_static/css/.ipynb_checkpoints/style_wheel-checkpoint.css" />
@@ -108,11 +110,13 @@ var addUtterances = () => {
 commentsRunWhenDOMLoaded(addUtterances);
 </script>
     <script src="_static/assets/script/kittons.js"></script>
+    <script src="_static/assets/script/Pomodoro-script.js"></script>
     <script src="_static/assets/script/scriptvideo.js"></script>
     <script src="_static/assets/script/script_flipping_card.js"></script>
     <script src="_static/assets/script/script_wheel.js"></script>
     <script src="_static/assets/script/slideshow.js"></script>
     <script src="_static/assets/script/.ipynb_checkpoints/kittons-checkpoint.js"></script>
+    <script src="_static/assets/script/.ipynb_checkpoints/Pomodoro-script-checkpoint.js"></script>
     <script src="_static/assets/script/.ipynb_checkpoints/scriptvideo-checkpoint.js"></script>
     <script src="_static/assets/script/.ipynb_checkpoints/script_blob-checkpoint.js"></script>
     <script src="_static/assets/script/.ipynb_checkpoints/script_flipping_card-checkpoint.js"></script>
@@ -130,7 +134,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="shortcut icon" href="_static/logo_SFTP.png"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Academic CV" href="CV/CV_Main.html" />
+    <link rel="next" title="Comment ca marche ?" href="Comment.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -165,8 +169,8 @@ const thebe_selector_output = ".output, .cell_output"
          class="form-control"
          name="q"
          id="search-input"
-         placeholder="Search this book..."
-         aria-label="Search this book..."
+         placeholder="Search..."
+         aria-label="Search..."
          autocomplete="off"
          autocorrect="off"
          autocapitalize="off"
@@ -174,12 +178,6 @@ const thebe_selector_output = ".output, .cell_output"
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
 </form></div>
   </div>
-
-
-  <div class="bd-header-announcement container-fluid bd-header-announcement">
-    <div class="bd-header-announcement__content">⚠ In Development  ⚠</div>
-  </div>
-
   
     <nav class="bd-header navbar navbar-expand-lg bd-navbar">
     </nav>
@@ -212,36 +210,112 @@ const thebe_selector_output = ".output, .cell_output"
       
     
     
-    <img src="_static/logo_SFTP.png" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="_static/logo_SFTP.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="_static/profile-pic-round_4.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="_static/profile-pic-round_4.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
   
   
 </a></div>
+        <div class="sidebar-primary-item"><ul class="navbar-icon-links navbar-nav"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://deugz.github.io/Encyclopedia-Home/build/html/index.html" title="Home" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-solid fa-house"></i></span>
+            <label class="sr-only">Home</label></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://deugz.github.io/nb-profile/_build/html/intro.html" title="Profile" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-solid fa-user"></i></span>
+            <label class="sr-only">Profile</label></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://deugz.github.io/ab-blog/_website/index.html" title="Blog" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-solid fa-blog"></i></span>
+            <label class="sr-only">Blog</label></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://deugz.github.io/nb-tools/_build/html/intro.html" title="Tools" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-solid fa-screwdriver-wrench"></i></span>
+            <label class="sr-only">Tools</label></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://deugz.github.io" title="Forum" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-solid fa-comments"></i></span>
+            <label class="sr-only">Forum</label></a>
+        </li>
+</ul></div>
         <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference external" href="https://deugz.github.io/sp-Science_Journey/build/html/index.html" rel="noopener noreferrer" target="_blank">🏠 Home</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Comment.html">Comment ca marche ?</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Curriculum Vitae</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Infos</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="CV/CV_Main.html">Academic CV</a></li>
-<li class="toctree-l1"><a class="reference internal" href="CV/Web-Dev.html">Web-Dev CV</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CV/Web-Dev.html">Web Ecocystem</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Playlist/Playlist.html">Ma Playlist</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Interests</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="Interests/Scientific-Interests.html">Scientific Interests</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Interests/Scientific-Interests.html">Science</a></li>
 
-<li class="toctree-l1"><a class="reference internal" href="Interests/Societal-interests.html">Societal Interests</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Interests/Politics.html">Politique ?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Interests/Education.html">Education</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Interests/Music.html">Musique</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Interests/Pharma.html">Pharmacie</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Interests/Politics.html">Politique</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Friends</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="Friends/Friends.html">Friends</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Friends/Friends.html">Amis</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="Friends/Collabs/Collab.html">Collabs</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="Friends/Collabs/Lillian.html">Lillian</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Friends/Collabs/Ross.html">Ross</a></li>
+</ul>
+</li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Perso</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="feed.html">RSS Feed</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="Tools/Orga.html">Orga</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="Tools/Pomodoro.html">Pomodoro</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Tools/EDT.html">Emplois du temps</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="Ikigai/Ikigai.html">Ikigai</a></li>
+<li class="toctree-l1"><a class="reference internal" href="feed.html">RSS Feed</a></li>
 </ul>
 
     </div>
@@ -283,70 +357,6 @@ const thebe_selector_output = ".output, .cell_output"
         <div class="header-article-item">
 
 <div class="article-header-buttons">
-
-
-
-
-
-<div class="dropdown dropdown-source-buttons">
-  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
-    <i class="fab fa-github"></i>
-  </button>
-  <ul class="dropdown-menu">
-      
-      
-      
-      <li><a href="https://github.com/Deugz/nb-profile" target="_blank"
-   class="btn btn-sm btn-source-repository-button dropdown-item"
-   title="Source repository"
-   data-bs-placement="left" data-bs-toggle="tooltip"
->
-  
-
-<span class="btn__icon-container">
-  <i class="fab fa-github"></i>
-  </span>
-<span class="btn__text-container">Repository</span>
-</a>
-</li>
-      
-      
-      
-      
-      <li><a href="https://github.com/Deugz/nb-profile/edit/main/_build/html/intro.md" target="_blank"
-   class="btn btn-sm btn-source-edit-button dropdown-item"
-   title="Suggest edit"
-   data-bs-placement="left" data-bs-toggle="tooltip"
->
-  
-
-<span class="btn__icon-container">
-  <i class="fas fa-pencil-alt"></i>
-  </span>
-<span class="btn__text-container">Suggest edit</span>
-</a>
-</li>
-      
-      
-      
-      
-      <li><a href="https://github.com/Deugz/nb-profile/issues/new?title=Issue%20on%20page%20%2Fintro.html&body=Your%20issue%20content%20here." target="_blank"
-   class="btn btn-sm btn-source-issues-button dropdown-item"
-   title="Open an issue"
-   data-bs-placement="left" data-bs-toggle="tooltip"
->
-  
-
-<span class="btn__icon-container">
-  <i class="fas fa-lightbulb"></i>
-  </span>
-<span class="btn__text-container">Open issue</span>
-</a>
-</li>
-      
-  </ul>
-</div>
-
 
 
 
@@ -453,7 +463,21 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Profile</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#new-title">New Title</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ce-que-je-veux-accomplir">Ce que je veux accomplir</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#map">Map</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#audiences">Audiences</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#traductions">Traductions</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ou-je-peux-contribuer">Ou je peux contribuer</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#science">Science</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#l-education">L’ Education</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#musique">Musique</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pharmacie">Pharmacie</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#politique">Politique</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#le-tout-de-maniere-collaborative">Le tout de manière Collaborative</a></li>
 </ul>
 </li>
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#comments">Comments</a><ul class="visible nav section-nav flex-column">
@@ -473,13 +497,25 @@ document.write(`
                   
   <div class="tex2jax_ignore mathjax_ignore section" id="profile">
 <h1>Profile<a class="headerlink" href="#profile" title="Permalink to this heading">#</a></h1>
+<hr class="docutils" />
+<div class="video-div">
+<iframe  id="stickyAnchor" class="v-page-anchor float-left" src="https://www.youtube.com/embed/uHFJ9qhR0VM?enablejsapi=1" frameborder="0" fullscreen width="0" height="0" style="margin:auto;"></iframe>
+</div>
+<script src="https://www.youtube.com/iframe_api"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="_static/assets/script/scriptvideo.js"></script>
+<p class="emphase2"> <strong>Bienvenue</strong> &nbsp; 👋 </p>
 <div class="full-width docutils">
-<p class="emphase2"> <strong>Vincent Deguin</strong></p>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
-<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
-<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<div class="sd-row sd-row-cols-4 sd-row-cols-xs-4 sd-row-cols-sm-4 sd-row-cols-md-4 sd-row-cols-lg-4 docutils">
+<div class="sd-col sd-d-flex-column sd-col-1 sd-col-xs-1 sd-col-sm-1 sd-col-md-1 sd-col-lg-1 docutils">
+<br>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
 <br>
 <img alt="_images/Profile-BG.jpg" src="_images/Profile-BG.jpg" />
+</div>
+<div class="sd-col sd-d-flex-column sd-col-1 sd-col-xs-1 sd-col-sm-1 sd-col-md-1 sd-col-lg-1 docutils">
+<br>
 </div>
 <div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
 <div id="colour">
@@ -506,14 +542,1069 @@ document.write(`
 </div>
 </div>
 </div>
-<div class="section" id="new-title">
-<h2>New Title<a class="headerlink" href="#new-title" title="Permalink to this heading">#</a></h2>
-<div class="admonition-to-do admonition">
-<p class="first admonition-title">To Do</p>
+<br>
+<hr class="docutils" />
+<div class="full-width docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-7 sd-col-xs-7 sd-col-sm-7 sd-col-md-7 sd-col-lg-7 docutils">
+<p class="emphase2"> 🤔 </p>
+<div class="note dropdown admonition">
+<p class="first admonition-title">C’est quoi ce truc ?</p>
+<p class="last">Il s’agit en premier lieu d’un site internet. Il est le fruit de la découverte d’une nouvelle methode pour contruire des sites web qui s’appelle <a class="reference external" href="https://jupyterbook.org/en/stable/intro.html" rel="noopener noreferrer" target="_blank">JupyterBook</a>, que j’utilise pour mon usage personel depuis 1 ans (09/2022)</p>
+</div>
+<div class="tip dropdown admonition">
+<p class="first admonition-title">Et pourquoi je suis là ?</p>
+<p class="last">Probablement parce que t’es un pote ou un proche a ce stade de l’avancement du projet.</p>
+</div>
+<div class="important dropdown admonition">
+<p class="first admonition-title">OK, et ensuite ?</p>
+<p class="last">Tu peux finir de lire cette page déja, tu en sauras ainsi plus sur ma démarche et mes projets. Ensuite tu seras libre de voyager ou bon te semble en suivant tes propres interets.</p>
+</div>
+<div class="warning dropdown admonition">
+<p class="first admonition-title">Mais attention !  <img alt="flag alt &gt;" src="_images/review-svgrepo-com.svg" /></p>
+<p class="last">Le contenue de ce site n’a pas été révisé, corrigé. Il s’agit d’une version brute de notes que j’écris de manière plus ou moins assidue.</p>
+</div>
+<div class="warning dropdown admonition">
+<p class="first admonition-title">Apportez votre contribution</p>
+<p class="last">Le but premier de ce siteweb est de créer une conversation et de féderer autour de cette nouvel methode qui se situe en marge des “réseaux sociaux classiques”… J’offre un site aux dix premières personnes qui commenteront cette page ;)</p>
+</div>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-5 sd-col-xs-5 sd-col-sm-5 sd-col-md-5 sd-col-lg-5 docutils">
+<br>
+<p class="emphase"><strong> Mon jardin numérique </strong></p>
+<br>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<p><lottie-player src="https://assets7.lottiefiles.com/packages/lf20_ZAY921.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;"  loop  autoplay></lottie-player></p>
+</div>
+</div>
+</div>
+</div>
+<br>
+<div class="section" id="ce-que-je-veux-accomplir">
+<h2>Ce que je veux accomplir<a class="headerlink" href="#ce-que-je-veux-accomplir" title="Permalink to this heading">#</a></h2>
+<div class="full-width docutils">
+<br>
+<a class="reference internal image-reference" href="_images/web-3-A.png"><img alt="_images/web-3-A.png" class="align-center" src="_images/web-3-A.png" style="width: 80%;" /></a>
+<br>
+<p class="emphase">   
+Le pouvoir d'<strong>Internet</strong>, potentialisé par les outils et connaissances nécessaire afin de ...
+</p> 
+<hr class="docutils" />
+<br>
+<p class="emphase2">   
+<strong>Construire</strong> 🔨  
+</p> 
+<p class="emphase"><strong>Nous même</strong> notre profile sociale, en mode <strong>DIY</strong> en fonction de <strong>nos besoins</strong> et suivant nos envies.</p>
+<div id="P1">
+<div id="subdiv2">
+<p>Aujourd’hui nous utilisons des plateformes commerciales pour créer et entretenir notre profile (et de surcroît réseau) sociale. Je pense que le tissu sociale d’une personne est la plus grande richesse de cet individue. Confier la gestion de ce réseau a une (ou plusieurs) entreprise a visés commerciales, est une grosse erreur (cf Blog post ? le business model de facebook twitter etc …). Elles ne fournissent pas un espace pour contruire la réflexion et bien au contraire, et chaque poste est finalement un jet dans la gueule de l’algorithme qui en retour vous enverra une publicité bien orienté.</p>
+<p>Maitriser les technologies du web me semble être une compétence fondamentale dans le monde d’aujourd’hui, d’autant plus que pour la plupart, elles sont open-source et complètement gratuite. En revanche, elles requièrent des compétences qui font que créer un site soi meme peut avoir l’air d’une tache insurmontable … J’éssairai de vous montrer que ce n’est pas le cas et qu’il existe beaucoup d’aide disponibles (dont la mienne) pour ceux qui voudraient suivre cette démarche.</p>
+</div>
+<div id="subdiv2">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-4 sd-row-cols-xs-4 sd-row-cols-sm-4 sd-row-cols-md-4 sd-row-cols-lg-4 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Profile</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<img alt="_images/user-solid.svg" src="_images/user-solid.svg" /></div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text">✅</p>
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/Encyclopedia-Home/build/html/index.html" rel="noopener noreferrer" target="_blank"></a></div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Blog</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<img alt="_images/blog-solid.svg" src="_images/blog-solid.svg" /></div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text"><img alt="flag alt &gt;" src="_images/Under_construction.svg" /></p>
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/Encyclopedia-Home/build/html/index.html" rel="noopener noreferrer" target="_blank"></a></div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Tools</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<img alt="_images/screwdriver-wrench-solid.svg" src="_images/screwdriver-wrench-solid.svg" /></div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text">✅</p>
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/Encyclopedia-Home/build/html/index.html" rel="noopener noreferrer" target="_blank"></a></div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Forum</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<img alt="_images/comments-solid.svg" src="_images/comments-solid.svg" /></div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text">❌</p>
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/Encyclopedia-Home/build/html/index.html" rel="noopener noreferrer" target="_blank"></a></div>
+</div>
+</div>
+</div>
+<br>      
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+More infos<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-0" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-0">
+Profile</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">text</p>
+</div>
+<input id="sd-tab-item-1" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-1">
+Blog</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">text</p>
+</div>
+<input id="sd-tab-item-2" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-2">
+Tools</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">Text</p>
+</div>
+<input id="sd-tab-item-3" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-3">
+Forum</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">Text</p>
+</div>
+</div>
+</div>
+</details><br>    
+<p class="emphase"><strong>Outils</strong></p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-4 sd-row-cols-xs-4 sd-row-cols-sm-4 sd-row-cols-md-4 sd-row-cols-lg-4 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<a class="reference internal image-reference" href="_images/Anaconda_logo.png"><img alt="_images/Anaconda_logo.png" class="align-center" src="_images/Anaconda_logo.png" style="width: 98%;" /></a>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<br>    
+<a class="reference internal image-reference" href="_images/Markdown-mark.svg"><img alt="_images/Markdown-mark.svg" class="align-center" src="_images/Markdown-mark.svg" width="100%" /></a>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<a class="reference internal image-reference" href="_images/logo_JB.png"><img alt="_images/logo_JB.png" class="align-center" src="_images/logo_JB.png" style="width: 100%;" /></a>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<a class="reference internal image-reference" href="_images/github-svgrepo-com.svg"><img alt="_images/github-svgrepo-com.svg" class="align-center" src="_images/github-svgrepo-com.svg" width="90%" /></a>
+</div>
+</div>
+</div>
+<br>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+More infos<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-4" name="sd-tab-set-1" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-4">
+Anaconda</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">text</p>
+</div>
+<input id="sd-tab-item-5" name="sd-tab-set-1" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-5">
+Markdown</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">text</p>
+</div>
+<input id="sd-tab-item-6" name="sd-tab-set-1" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-6">
+Jupyter</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">Text</p>
+</div>
+<input id="sd-tab-item-7" name="sd-tab-set-1" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-7">
+Github</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">Text</p>
+</div>
+</div>
+</div>
+</details></div>
+</div>
+</div>
+<div class="full-width docutils">
+<br>
+<hr class="docutils" />
+<p class="emphase2">   
+<strong>Embélir </strong> 🎨
+</p> 
+<p class="emphase">Son espace digitale avec sa <span "aussi complex soit elle">personalité</span>, ses gouts et en utilisant tout son potentiel <strong>créatif </strong></p>
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<p>Une fois que vous aurez créer votre espace personnel digitale, vous pourrez le modifier a votre guise en utilsante la pelette du developpeur web, a savoir le CSS.</p>
+<ul class="simple">
+<li>svg</li>
+<li>Les outils de la science a votre propre fin.<ul>
+<li>Python</li>
+<li>etc</li>
+</ul>
+</li>
+</ul>
+<p>J’aimerais créer un outils de prise de note et d’idéation qui s’appuie sur des technologies open source pour donner aux gens l’opportunité de créer leur propre base de donnée de connaissances.</p>
+<ul class="simple">
+<li>Many benefits (lien vers How do I use …)<ul>
+<li>Add 1 Dimension (plan) vs hand written notebook (linear constrained by t)</li>
+</ul>
+</li>
+</ul>
+<p>Prouver qu’il est possible de prendre des notes sur internet en faisant en sorte que ca favorise les processus collaboratifs.</p>
+<ul class="simple">
+<li>Je pense que ca peut être un outils pour permettre aux personnes atteintes de TDAH de s’épanouir d’avantage dans leur workflow academic</li>
+</ul>
+<p>Le bénéfice de cette méthode (en plus des avantages d’avoir ce controle de ton profile sociale), c’est que Tu dispose d’un outils, qui marche en <strong>symbiose</strong> avec ton rythme de vie, puisque tu l’as créée en fonction (et ca va être un processus en évolution perpetuelle et donc iteratif).</p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<div class="figure align-default" id="id1">
+<img alt="_images/Psilocybe_pelliculosa_122504.jpg" src="_images/Psilocybe_pelliculosa_122504.jpg" />
+<p class="caption"><span class="caption-number">Fig. 1 </span><span class="caption-text"><a class="reference external" href="https://commons.wikimedia.org/wiki/File:Psilocybe_pelliculosa_122504.jpg" rel="noopener noreferrer" target="_blank">Source</a></span><a class="headerlink" href="#id1" title="Permalink to this image">#</a></p>
+</div>
+<div class="warning admonition">
+<p class="first admonition-title">Psyllocibus …</p>
+<p>Information sur champi - faire checker par le daron (mode commentaire explicatif)</p>
+<p class="last">Contact pharmacien ..</p>
+</div>
+<div class="important dropdown admonition">
+<p class="first admonition-title">Question</p>
+<p>Les sciences se sont-elles penchés sur les effets des psylocibes dans le processus créatif ?</p>
 <ul class="last simple">
-<li>Check CV page (pictures missing) …</li>
+<li>Jammy ?</li>
 </ul>
 </div>
+</div>
+</div>
+</div>
+</div>
+<div class="full-width docutils">
+<br>
+<hr class="docutils" />
+<br>
+<p class="emphase2">   
+<strong>Enrichir </strong> ✍  
+</p>
+<p class="emphase">De tes experiences de vie, ainsi que les <strong>connaissances aquises au grés de tes pérégrinations sur les chemins du savoir</strong></p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<p>Je navigue dans ce terreau vertile qu’est internet et …</p>
+<p>tool. Your own social network cretaed consiusly.</p>
+<ul class="simple">
+<li>Promote collaboration</li>
+</ul>
+<p>Suis mes interets …</p>
+<p>Parcours étéroclite</p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<div class="figure align-default" id="id2">
+<img alt="_images/mycelium-1.jpg" src="_images/mycelium-1.jpg" />
+<p class="caption"><span class="caption-number">Fig. 2 </span><span class="caption-text"><a class="reference external" href="http://www.monjardinenpermaculture.fr/" rel="noopener noreferrer" target="_blank">Source</a></span><a class="headerlink" href="#id2" title="Permalink to this image">#</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="full-width docutils">
+<p class="emphase2">   
+<strong>Créer 🤯</strong> 
+</p> 
+<p class="emphase">   
+Et voila le <strong>Résultat</strong> ...<br>
+</p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-5 sd-row-cols-xs-5 sd-row-cols-sm-5 sd-row-cols-md-5 sd-row-cols-lg-5 docutils">
+<div class="sd-col sd-d-flex-column sd-col-1 sd-col-xs-1 sd-col-sm-1 sd-col-md-1 sd-col-lg-1 docutils">
+</div>
+<div class="sd-col sd-d-flex-column sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<br>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Website</strong> <img alt="flag alt &gt;" src="_images/web-svgrepo-com.svg" /></p>
+</div>
+<div class="sd-card-body docutils">
+<br>
+<img alt="_images/Encyclopedia-logo.png" src="_images/Encyclopedia-logo.png" />
+<br>
+<br>
+<br>
+<ul class="simple">
+<li><p class="sd-card-text first"><strong>Status</strong>: 💚</p>
+</li>
+<li><p class="sd-card-text first"><strong>Version</strong>: 0.1</p>
+</li>
+</ul>
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/Encyclopedia-Home/build/html/index.html" rel="noopener noreferrer" target="_blank"></a></div>
+<br>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-1 sd-col-xs-1 sd-col-sm-1 sd-col-md-1 sd-col-lg-1 docutils">
+</div>
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<div class="figure align-default" id="id3">
+<img alt="_images/Creaci%C3%B3n_de_Ad%C3%A1n_crop.jpg" src="_images/Creaci%C3%B3n_de_Ad%C3%A1n_crop.jpg" />
+<p class="caption"><span class="caption-number">Fig. 3 </span><span class="caption-text"><a class="reference external" href="http://www.monjardinenpermaculture.fr/" rel="noopener noreferrer" target="_blank">Source</a></span><a class="headerlink" href="#id3" title="Permalink to this image">#</a></p>
+</div>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-1 sd-col-xs-1 sd-col-sm-1 sd-col-md-1 sd-col-lg-1 docutils">
+</div>
+</div>
+</div>
+<br>
+<br>
+<hr class="docutils" />
+<br>
+<img alt="_images/Encyclopedia-3.png" src="_images/Encyclopedia-3.png" />
+<blockquote class="epigraph">
+<div><p>Ma propre base de donnée, que j’implémente au fil du temps.</p>
+<p>Je tisse ma toile de connaissance au centre duquel je place mon profile social.</p>
+<p>Je favorise ainsi mes processus collaboratifs!</p>
+<p>Le but n’étant pas de convaincre la masse, mais plutot de toucher mon cercle proche.</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Insert card to page How do I use online book (in grid)</p>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="map">
+<h3>Map<a class="headerlink" href="#map" title="Permalink to this heading">#</a></h3>
+<div class="figure align-default" id="id4">
+<a class="reference internal image-reference" href="_images/Map_Encyclopedia.svg"><img alt="_images/Map_Encyclopedia.svg" src="_images/Map_Encyclopedia.svg" width="100%" /></a>
+<p class="caption"><span class="caption-number">Fig. 4 </span><span class="caption-text">Description</span><a class="headerlink" href="#id4" title="Permalink to this image">#</a></p>
+</div>
+</div>
+<div class="section" id="audiences">
+<h3>Audiences<a class="headerlink" href="#audiences" title="Permalink to this heading">#</a></h3>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<ul class="last simple">
+<li>Insérer fish diagram</li>
+</ul>
+</div>
+</div>
+<div class="section" id="traductions">
+<h3>Traductions<a class="headerlink" href="#traductions" title="Permalink to this heading">#</a></h3>
+<div class="full-width docutils">
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+Traduction<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-8" name="sd-tab-set-2" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-8">
+🌎</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">This is a traduction window, feel free to use the commenting tool to add your contribution. Each sign represent a country, here is the legend:
+<br></p>
+<ul class="simple">
+<li><p class="sd-card-text first">🥖 France
+<br></p>
+</li>
+<li><p class="sd-card-text first">🍕 Italy</p>
+</li>
+</ul>
+<br>
+<p class="sd-card-text">PS: <em>Don’t be offended by the character I have choosen for your country, unfortenately html character flags is not a thing.</em></p>
+</div>
+<input id="sd-tab-item-9" name="sd-tab-set-2" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-9">
+🥖</label><div class="sd-tab-content docutils">
+<p class="emphase2"><strong>La Publication Scientifique </strong> </p>
+<p class="emphase">Un système <strong>mafieux</strong> qui coute trés chère</p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<blockquote>
+<div><p class="sd-card-text">Voici une brève, simple et plutôt correcte introduction a ce qu’est la publication scientifique, réalisé par le trés bon <a class="reference external" href="https://www.youtube.com/&#64;dirtybiology" rel="noopener noreferrer" target="_blank">DirtyBiology</a>. Le terme de mafia n’est pas galvaudé. En effet, …</p>
+</div></blockquote>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<div class="embedresize">
+<iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/rcgxY__YXEc?start=19" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input id="sd-tab-item-10" name="sd-tab-set-2" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-10">
+💂</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+<input id="sd-tab-item-11" name="sd-tab-set-2" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-11">
+💃</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+<input id="sd-tab-item-12" name="sd-tab-set-2" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-12">
+🍕</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+<input id="sd-tab-item-13" name="sd-tab-set-2" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-13">
+🍺</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+<input id="sd-tab-item-14" name="sd-tab-set-2" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-14">
+🍙</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+<input id="sd-tab-item-15" name="sd-tab-set-2" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-15">
+🥥</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+</div>
+</div>
+</details></div>
+<p class="emphase"> Pour nous, avec tous</p>
+</div>
+</div>
+<div class="section" id="ou-je-peux-contribuer">
+<h2>Ou je peux contribuer<a class="headerlink" href="#ou-je-peux-contribuer" title="Permalink to this heading">#</a></h2>
+<div class="section" id="science">
+<h3>Science<a class="headerlink" href="#science" title="Permalink to this heading">#</a></h3>
+<p class="emphase2"><strong>Science 3.A</strong></p>
+<div class="full-width docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 docutils">
+<blockquote class="epigraph">
+<div>I would like to use my thesis as a creative opportunity to produce an online <strong>Research compendium</strong>. This would be a <strong>proof of concept</strong> that publishing scientific work online is feasable and add values.</div></blockquote>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Website</strong> <img alt="flag alt &gt;" src="_images/web-svgrepo-com.svg" /></p>
+</div>
+<div class="sd-card-body docutils">
+<br>
+<img alt="_images/logo_SFTP.png" src="_images/logo_SFTP.png" />
+<br>
+<br>
+<br>
+<ul class="simple">
+<li><p class="sd-card-text first"><strong>Status</strong>: 💚</p>
+</li>
+<li><p class="sd-card-text first"><strong>Version</strong>: 0.1</p>
+</li>
+</ul>
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/sp-Science_Journey/build/html/index.html" rel="noopener noreferrer" target="_blank"></a></div>
+<br>
+<br>
+<blockquote class="trello-board-compact">
+  <a href="https://trello.com/b/6fSWY6uW/nb-master">Trello Board</a>
+</blockquote>
+</div>
+</div>
+</div>
+</div>
+<div class="full-width docutils">
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+Traduction<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-16" name="sd-tab-set-3" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-16">
+🌎</label><div class="sd-tab-content docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 docutils">
+<p class="sd-card-text">This is a traduction window, feel free to use the commenting tool to add your contribution. (link how-to)</p>
+<p class="sd-card-text">PS: <em>Don’t be offended by the character I have choosen for your country, unfortenately html character flags is not a thing.</em></p>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text"><strong>Legend</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<br>
+- 🥖 France
+<br>
+- 🍕 Italy
+<br>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input id="sd-tab-item-17" name="sd-tab-set-3" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-17">
+🥖</label><div class="sd-tab-content docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<blockquote>
+<div><p class="sd-card-text">Voici une brève, simple et plutôt correcte introduction a ce qu’est la publication scientifique, réalisé par le trés bon <a class="reference external" href="https://www.youtube.com/&#64;dirtybiology" rel="noopener noreferrer" target="_blank">DirtyBiology</a>. Le terme de mafia n’est pas galvaudé. En effet, …</p>
+</div></blockquote>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<div class="embedresize">
+<iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/rcgxY__YXEc?start=19" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input id="sd-tab-item-18" name="sd-tab-set-3" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-18">
+💂</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+<input id="sd-tab-item-19" name="sd-tab-set-3" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-19">
+💃</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+<input id="sd-tab-item-20" name="sd-tab-set-3" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-20">
+🍕</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+<input id="sd-tab-item-21" name="sd-tab-set-3" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-21">
+🍺</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+<input id="sd-tab-item-22" name="sd-tab-set-3" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-22">
+🍙</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+<input id="sd-tab-item-23" name="sd-tab-set-3" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-23">
+🥥</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+</div>
+</div>
+</details></div>
+</div>
+<div class="section" id="l-education">
+<h3>L’ Education<a class="headerlink" href="#l-education" title="Permalink to this heading">#</a></h3>
+<p class="emphase2"><strong>The CuriouSchool</strong></p>
+<div class="full-width docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 docutils">
+<blockquote class="epigraph">
+<div>I would like to use my thesis as a creative opportunity to produce an online <strong>Research compendium</strong>. This would be a <strong>proof of concept</strong> that publishing scientific work online is feasable and add values.</div></blockquote>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Website</strong> <img alt="flag alt &gt;" src="_images/web-svgrepo-com.svg" /></p>
+</div>
+<div class="sd-card-body docutils">
+<br>
+<img alt="_images/logo_SFTP.png" src="_images/logo_SFTP.png" />
+<br>
+<br>
+<br>
+<ul class="simple">
+<li><p class="sd-card-text first"><strong>Status</strong>: 💚</p>
+</li>
+<li><p class="sd-card-text first"><strong>Version</strong>:0.1</p>
+</li>
+</ul>
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/sp-Education_Journey/build/html/index.html" rel="noopener noreferrer" target="_blank"></a></div>
+<br>
+<br>
+<blockquote class="trello-board-compact">
+  <a href="https://trello.com/b/6fSWY6uW/nb-master">Trello Board</a>
+</blockquote>
+</div>
+</div>
+</div>
+</div>
+<div class="full-width docutils">
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+Traduction<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-24" name="sd-tab-set-4" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-24">
+🌎</label><div class="sd-tab-content docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 docutils">
+<p class="sd-card-text">This is a traduction window, feel free to use the commenting tool to add your contribution. (link how-to)</p>
+<p class="sd-card-text">PS: <em>Don’t be offended by the character I have choosen for your country, unfortenately html character flags is not a thing.</em></p>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text"><strong>Legend</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<br>
+- 🥖 France
+<br>
+- 🍕 Italy
+<br>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input id="sd-tab-item-25" name="sd-tab-set-4" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-25">
+🥖</label><div class="sd-tab-content docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<blockquote>
+<div><p class="sd-card-text">Voici une brève, simple et plutôt correcte introduction a ce qu’est la publication scientifique, réalisé par le trés bon <a class="reference external" href="https://www.youtube.com/&#64;dirtybiology" rel="noopener noreferrer" target="_blank">DirtyBiology</a>. Le terme de mafia n’est pas galvaudé. En effet, …</p>
+</div></blockquote>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<div class="embedresize">
+<iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/rcgxY__YXEc?start=19" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input id="sd-tab-item-26" name="sd-tab-set-4" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-26">
+💂</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+<input id="sd-tab-item-27" name="sd-tab-set-4" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-27">
+💃</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+<input id="sd-tab-item-28" name="sd-tab-set-4" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-28">
+🍕</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+<input id="sd-tab-item-29" name="sd-tab-set-4" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-29">
+🍺</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+<input id="sd-tab-item-30" name="sd-tab-set-4" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-30">
+🍙</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+<input id="sd-tab-item-31" name="sd-tab-set-4" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-31">
+🥥</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+</div>
+</div>
+</details></div>
+</div>
+<div class="section" id="musique">
+<h3>Musique<a class="headerlink" href="#musique" title="Permalink to this heading">#</a></h3>
+<div class="full-width docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 docutils">
+<blockquote class="epigraph">
+<div>I would like to use my thesis as a creative opportunity to produce an online <strong>Research compendium</strong>. This would be a <strong>proof of concept</strong> that publishing scientific work online is feasable and add values.</div></blockquote>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Website</strong> <img alt="flag alt &gt;" src="_images/web-svgrepo-com.svg" /></p>
+</div>
+<div class="sd-card-body docutils">
+<br>
+<img alt="_images/HLA-Logo.png" src="_images/HLA-Logo.png" />
+<br>
+<br>
+<br>
+<ul class="simple">
+<li><p class="sd-card-text first"><strong>Status</strong>: 🧡</p>
+</li>
+<li><p class="sd-card-text first"><strong>Version</strong>:0.1</p>
+</li>
+</ul>
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/sp-Hiphop_Journey/build/html/index.html" rel="noopener noreferrer" target="_blank"></a></div>
+<br>
+<br>
+<blockquote class="trello-board-compact">
+  <a href="https://trello.com/b/6fSWY6uW/nb-master">Trello Board</a>
+</blockquote>
+</div>
+</div>
+</div>
+</div>
+<div class="full-width docutils">
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+Traduction<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-32" name="sd-tab-set-5" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-32">
+🌎</label><div class="sd-tab-content docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 docutils">
+<p class="sd-card-text">This is a traduction window, feel free to use the commenting tool to add your contribution. (link how-to)</p>
+<p class="sd-card-text">PS: <em>Don’t be offended by the character I have choosen for your country, unfortenately html character flags is not a thing.</em></p>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text"><strong>Legend</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<br>
+- 🥖 France
+<br>
+- 🍕 Italy
+<br>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input id="sd-tab-item-33" name="sd-tab-set-5" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-33">
+🥖</label><div class="sd-tab-content docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<blockquote>
+<div><p class="sd-card-text">Voici une brève, simple et plutôt correcte introduction a ce qu’est la publication scientifique, réalisé par le trés bon <a class="reference external" href="https://www.youtube.com/&#64;dirtybiology" rel="noopener noreferrer" target="_blank">DirtyBiology</a>. Le terme de mafia n’est pas galvaudé. En effet, …</p>
+</div></blockquote>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<div class="embedresize">
+<iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/rcgxY__YXEc?start=19" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input id="sd-tab-item-34" name="sd-tab-set-5" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-34">
+💂</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+<input id="sd-tab-item-35" name="sd-tab-set-5" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-35">
+💃</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+<input id="sd-tab-item-36" name="sd-tab-set-5" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-36">
+🍕</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+<input id="sd-tab-item-37" name="sd-tab-set-5" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-37">
+🍺</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+<input id="sd-tab-item-38" name="sd-tab-set-5" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-38">
+🍙</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+<input id="sd-tab-item-39" name="sd-tab-set-5" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-39">
+🥥</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+</div>
+</div>
+</details></div>
+</div>
+<div class="section" id="pharmacie">
+<h3>Pharmacie<a class="headerlink" href="#pharmacie" title="Permalink to this heading">#</a></h3>
+<div class="full-width docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 docutils">
+J’envisage de digitaliser les cours de pharmacie qui sont actuellements produits et consommés au format papier. Le but etant dans un second temps de créer a partir des documents produits un outil qui puisse etre rendue accessible aux patient dans le but de favoriser l’observance.</div>
+<div class="sd-col sd-d-flex-column sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Website</strong> <img alt="flag alt &gt;" src="_images/web-svgrepo-com.svg" /></p>
+</div>
+<div class="sd-card-body docutils">
+<br>
+<img alt="_images/logo_SFTP.png" src="_images/logo_SFTP.png" />
+<br>
+<br>
+<br>
+<ul class="simple">
+<li><p class="sd-card-text first"><strong>Status</strong>: 💚</p>
+</li>
+<li><p class="sd-card-text first"><strong>Version</strong>:0.1</p>
+</li>
+</ul>
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/sp-Pharma_Journey/build/html/index.html" rel="noopener noreferrer" target="_blank"></a></div>
+<br>
+<br>
+<blockquote class="trello-board-compact">
+  <a href="https://trello.com/b/6fSWY6uW/nb-master">Trello Board</a>
+</blockquote>
+</div>
+</div>
+</div>
+</div>
+<div class="full-width docutils">
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+Traduction<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-40" name="sd-tab-set-6" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-40">
+🌎</label><div class="sd-tab-content docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 docutils">
+<p class="sd-card-text">This is a traduction window, feel free to use the commenting tool to add your contribution. (link how-to)</p>
+<p class="sd-card-text">PS: <em>Don’t be offended by the character I have choosen for your country, unfortenately html character flags is not a thing.</em></p>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text"><strong>Legend</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<br>
+- 🥖 France
+<br>
+- 🍕 Italy
+<br>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input id="sd-tab-item-41" name="sd-tab-set-6" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-41">
+🥖</label><div class="sd-tab-content docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<blockquote>
+<div><p class="sd-card-text">Voici une brève, simple et plutôt correcte introduction a ce qu’est la publication scientifique, réalisé par le trés bon <a class="reference external" href="https://www.youtube.com/&#64;dirtybiology" rel="noopener noreferrer" target="_blank">DirtyBiology</a>. Le terme de mafia n’est pas galvaudé. En effet, …</p>
+</div></blockquote>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<div class="embedresize">
+<iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/rcgxY__YXEc?start=19" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input id="sd-tab-item-42" name="sd-tab-set-6" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-42">
+💂</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+<input id="sd-tab-item-43" name="sd-tab-set-6" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-43">
+💃</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+<input id="sd-tab-item-44" name="sd-tab-set-6" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-44">
+🍕</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+<input id="sd-tab-item-45" name="sd-tab-set-6" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-45">
+🍺</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+<input id="sd-tab-item-46" name="sd-tab-set-6" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-46">
+🍙</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+<input id="sd-tab-item-47" name="sd-tab-set-6" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-47">
+🥥</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+</div>
+</div>
+</details></div>
+</div>
+<div class="section" id="politique">
+<h3>Politique<a class="headerlink" href="#politique" title="Permalink to this heading">#</a></h3>
+<div class="full-width docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 docutils">
+<blockquote class="epigraph">
+<div>I would like to use my thesis as a creative opportunity to produce an online <strong>Research compendium</strong>. This would be a <strong>proof of concept</strong> that publishing scientific work online is feasable and add values.</div></blockquote>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Website</strong> <img alt="flag alt &gt;" src="_images/web-svgrepo-com.svg" /></p>
+</div>
+<div class="sd-card-body docutils">
+<br>
+<img alt="_images/logo_SFTP.png" src="_images/logo_SFTP.png" />
+<br>
+<br>
+<br>
+<ul class="simple">
+<li><p class="sd-card-text first"><strong>Status</strong>: 💚</p>
+</li>
+<li><p class="sd-card-text first"><strong>Version</strong>:0.1</p>
+</li>
+</ul>
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/sp-Politique_Journey/build/html/index.html" rel="noopener noreferrer" target="_blank"></a></div>
+<br>
+<br>
+<blockquote class="trello-board-compact">
+  <a href="https://trello.com/b/6fSWY6uW/nb-master">Trello Board</a>
+</blockquote>
+</div>
+</div>
+</div>
+</div>
+<div class="full-width docutils">
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+Traduction<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-48" name="sd-tab-set-7" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-48">
+🌎</label><div class="sd-tab-content docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 docutils">
+<p class="sd-card-text">This is a traduction window, feel free to use the commenting tool to add your contribution. (link how-to)</p>
+<p class="sd-card-text">PS: <em>Don’t be offended by the character I have choosen for your country, unfortenately html character flags is not a thing.</em></p>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text"><strong>Legend</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<br>
+- 🥖 France
+<br>
+- 🍕 Italy
+<br>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input id="sd-tab-item-49" name="sd-tab-set-7" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-49">
+🥖</label><div class="sd-tab-content docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<blockquote>
+<div><p class="sd-card-text">Voici une brève, simple et plutôt correcte introduction a ce qu’est la publication scientifique, réalisé par le trés bon <a class="reference external" href="https://www.youtube.com/&#64;dirtybiology" rel="noopener noreferrer" target="_blank">DirtyBiology</a>. Le terme de mafia n’est pas galvaudé. En effet, …</p>
+</div></blockquote>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<div class="embedresize">
+<iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/rcgxY__YXEc?start=19" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input id="sd-tab-item-50" name="sd-tab-set-7" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-50">
+💂</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+<input id="sd-tab-item-51" name="sd-tab-set-7" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-51">
+💃</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+<input id="sd-tab-item-52" name="sd-tab-set-7" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-52">
+🍕</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+<input id="sd-tab-item-53" name="sd-tab-set-7" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-53">
+🍺</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+<input id="sd-tab-item-54" name="sd-tab-set-7" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-54">
+🍙</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+<input id="sd-tab-item-55" name="sd-tab-set-7" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-55">
+🥥</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+</div>
+</div>
+</details></div>
+</div>
+</div>
+<div class="section" id="le-tout-de-maniere-collaborative">
+<h2>Le tout de manière Collaborative<a class="headerlink" href="#le-tout-de-maniere-collaborative" title="Permalink to this heading">#</a></h2>
 </div>
 </div>
 <div class="tex2jax_ignore mathjax_ignore section" id="comments">
@@ -631,11 +1722,11 @@ document.write(`
     <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="right-next"
-       href="CV/CV_Main.html"
+       href="Comment.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Academic CV</p>
+        <p class="prev-next-title">Comment ca marche ?</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -658,7 +1749,21 @@ document.write(`
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Profile</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#new-title">New Title</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ce-que-je-veux-accomplir">Ce que je veux accomplir</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#map">Map</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#audiences">Audiences</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#traductions">Traductions</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ou-je-peux-contribuer">Ou je peux contribuer</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#science">Science</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#l-education">L’ Education</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#musique">Musique</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pharmacie">Pharmacie</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#politique">Politique</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#le-tout-de-maniere-collaborative">Le tout de manière Collaborative</a></li>
 </ul>
 </li>
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#comments">Comments</a><ul class="visible nav section-nav flex-column">
@@ -694,11 +1799,6 @@ By <strong>Vincent Deguin</strong> (with ❤️)
   
   <div class="footer-item">
     
-<div class="extra_footer">
-  
-<img class="Green-WS" src="https://api.thegreenwebfoundation.org/greencheckimage/deugz.github.io?nocache=true" alt="This website is hosted Green - checked by thegreenwebfoundation.org"/><br><img class="CC_licence" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" alt="Licence CC BY NC SA 2"/>  
-
-</div>
   </div>
   
 </div>

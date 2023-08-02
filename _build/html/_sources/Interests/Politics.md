@@ -1,4 +1,4 @@
-# Politique ?
+# Politique 
 
 ```{note}
 

@@ -1,0 +1,356 @@
+.pomodo-row {
+   width:100%;
+   display: flex;
+   justify-content: center;
+}
+
+@media (max-width: 700px) {
+   .pomodo-row {
+      flex-direction: column-reverse;
+   }
+}
+
+@media (min-width: 701px) {
+   .pomodo-row {
+      flex-direction: row;
+   }
+   /* not using bootstrap columns because they don't work with flex */
+   .column + .column {
+      margin-left: 30px;
+   }
+   
+   .column {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+}
+
+
+/* left side: */
+
+
+#pomodoro-left {
+height: 100%;
+width:36%;
+background-color:#FFF8E7;
+padding: 20px;
+}
+
+.pomodo-row .group {
+
+    width: 100%;
+
+}
+
+.pomodo-row .group-label {
+   font-weight: 700;
+   text-align: left;
+   width: 50ch;
+   display: inline-block;
+   height: 100%;
+   vertical-align: top;
+}
+
+.pomodo-row .group-col {
+   display: inline-block;
+    width:400px;
+}
+
+.pomodo-row .input-number {
+   width: 40px;
+   background: none;
+   border: 1px solid #333333;
+   border-left: 0px;
+   border-right: 0px;
+   padding: 0px;
+   color: inherit;
+   font-family: sans-serif;
+   text-align: center;
+}
+
+.pomodo-row .btn-rocker {
+   background: #333333;
+   width: 30px;
+   height: 25px;
+   color: white;
+   border: none;
+   margin: 0px;
+   padding: 0px;
+}
+
+.pomodo-row .btn-rocker.left {
+   border-radius: 12px 0px 0px 12px;
+}
+
+.pomodo-row .btn-rocker.right {
+   border-radius: 0px 12px 12px 0px;
+}
+
+.pomodo-row abbr {
+   text-decoration: none;
+   text-align: center;
+   border: 1px solid #999;
+   width: 1.5em;
+   border-radius: 50%;
+   display: inline-block;
+}
+
+/* all other input related stuff is at the bottom */
+
+.pomodo-row .note {
+   border: 1px #333 dotted;
+   padding: 8px 16px;
+   margin: 12px 0px;
+   border-radius: 8px;
+   font-style: italic;
+   font-size: small;
+}
+
+
+/* right side: */
+
+#pomodoro-right {
+height: 100%;
+width:64%;
+}
+
+
+/* svg */
+
+.pomodo-row path {
+   fill: none;
+   stroke-width: 3px;
+}
+
+.pomodo-row path.work {
+   stroke: #662626;
+}
+
+.pomodo-row path.work.orange-blue {
+   stroke: #884f26;
+}
+
+.pomodo-row path.break {
+   stroke: #133313;
+}
+
+.pomodo-row path.break.orange-blue {
+   stroke: #202f33;
+}
+
+.pomodo-row #pomodoro {
+   min-width: 300px;
+   min-height: 300px;
+   max-width: 600px;
+   max-height: 600px;
+   position: relative;
+}
+
+.pomodo-row #inner {
+   top: 0px;
+   left: 0px;
+   bottom: 0px;
+   right: 0px;
+   position: absolute;
+   text-align: center;
+}
+
+.pomodo-row #timer {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.pomodo-row #timer-display {
+   font-size: 3em;
+}
+
+.pomodo-row  .display-segment {
+   width: 1ch;
+   display: inline-block;
+}
+
+.pomodo-row  .btn-icon {
+   background: none;
+   border: 1px none;
+   color: red;
+   font-size: 3em;
+   width: 1.5em;
+}
+
+.pomodo-row  .btn-icon:focus {
+   border: 1px #662626 solid;
+   border-radius: 50%;
+}
+
+.pomodo-row  .btn-icon.orange-blue:focus {
+   border-color: #884400;
+}
+
+.pomodo-row  .btn-icon.orange-blue {
+   color: #884400;
+}
+
+.pomodo-row  .btn-icon:before {
+   font-family: FontAwesome;
+}
+
+.pomodo-row  #btn-play:before, #btn-start:before {
+   content: "\f144";
+   /* play-circle */
+}
+
+.pomodo-row  #btn-pause:before {
+   content: "\f28b";
+}
+
+.pomodo-row  #btn-stop:before {
+   content: "\f28d";
+   /* stop-circle */
+}
+
+
+/* (hopefully) improve usability for disabled users */
+
+.pomodo-row input:focus, button:focus {
+   border: 1px solid #999;
+   outline: none;
+}
+
+.pomodo-row input, button {
+   border: 1px none;
+}
+
+
+/* you're gonna look sooo pretty */
+
+.pomodo-row input[type=checkbox] {
+   /* This hides the actual checkbox from view, 
+      while it is still focusable */
+   position: fixed;
+   left: -1000px;
+}
+
+.pomodo-row input + label {
+   padding-right: 1em;
+   cursor: pointer;
+   user-select: none;
+   -moz-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+}
+
+.pomodo-row input[type=checkbox] + label:before {
+   display: inline-block;
+   color: #999;
+   content: "\f00d";
+   /* cross, times */
+   cursor: pointer;
+   font-family: FontAwesome;
+   font-size: 1.3em;
+   margin-right: 4px;
+   min-width: 1em;
+   vertical-align: middle;
+}
+
+.pomodo-row input[type=checkbox]:checked + label:before {
+   content: "\f00c";
+   /* checkmark */
+}
+
+
+/* indicate when an offscreen checkbox is focused: */
+.pomodo-row input[type=checkbox]:focus + label:before {
+   outline: 1px solid #999;
+}
+.pomodo-row input[type=range].binary-slider {
+   width: 48px;
+}
+
+.pomodo-row input[type=range]#volume-slider {
+   width: 110px;
+}
+
+.pomodo-row input[type=range] {
+   -webkit-appearance: none;
+   margin: 0px 0;
+   display: inline-block;
+   width: auto;
+   vertical-align: middle;
+   background-color: transparent;
+   border-radius: 11px;
+}
+
+.pomodo-row input[type=range]::-moz-range-track {
+   height: 22px;
+   cursor: pointer;
+   background: #333;
+   border-radius: 11px;
+}
+
+.pomodo-row input[type=range]::-moz-range-thumb {
+   border: none;
+   height: 22px;
+   width: 22px;
+   border-radius: 50%;
+   background: #999;
+   cursor: pointer;
+}
+
+.pomodo-row input[type=range]::-webkit-slider-runnable-track {
+   height: 22px;
+   cursor: pointer;
+   background: #333;
+   border-radius: 11px;
+}
+
+.pomodo-row input[type=range]::-webkit-slider-thumb {
+   height: 22px;
+   width: 22px;
+   border-radius: 11px;
+   background: #999;
+   cursor: pointer;
+   -webkit-appearance: none;
+   margin-top: 0px;
+}
+
+.pomodo-row input[type=range]::-ms-track {
+   height: 22px;
+   cursor: pointer;
+   background: transparent;
+   border-color: transparent;
+   color: transparent;
+}
+
+.pomodo-row input[type=range]::-ms-fill-lower {
+   background: #333;
+   border-radius: 11px;
+}
+
+.pomodo-row input[type=range]::-ms-fill-upper {
+   background: #333;
+   border-radius: 11px;
+}
+
+.pomodo-row input[type=range]::-ms-thumb {
+   width: 22px;
+   height: 22px;
+   border-radius: 11px;
+   background: #999;
+   cursor: pointer;
+}
+
+.pomodo-row button#btn-volume-test {
+   vertical-align: middle;
+   padding: 4px;
+   background-color: #333;
+   color: #999;
+   border-radius: 8px;
+}
+
+.pomodo-row button#btn-volume-test:hover {
+   background-color: #444;
+}

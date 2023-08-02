@@ -1,4 +1,4 @@
-# Scientific Interests
+# Science
 
 ***
 
@@ -10,6 +10,52 @@
 
 
 <br>
+
+
+
+:::::{div} full-width 
+
+
+<p class="emphase">Et qui n'est pas adapté!</p>
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 6
+
+- Boite noire
+- Problème de riplicabilité
+
+:::
+
+:::{grid-item}
+:columns: 6
+
+<div id="science_bb"></div>
+<!-- partial -->
+<script src='https://labs.nearpod.com/bodymovin/demo/al_boardman/machine/lottie.min.js'></script><script src="../_static/assets/script/kittons.js"></script>
+
+- [Source](https://codepen.io/airnan/pen/WJBLpJ)
+
+<br>
+<br>
+
+
+```{note}
+
+Inserer diagrame de la methode scientifique
+
+```
+
+
+
+:::
+
+::::
+
+:::::
+
+
 
 ::::{div} full-width
 
