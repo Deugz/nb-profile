@@ -111,7 +111,6 @@ commentsRunWhenDOMLoaded(addUtterances);
 </script>
     <script src="../_static/assets/script/kittons.js"></script>
     <script src="../_static/assets/script/Pomodoro-script.js"></script>
-    <script src="../_static/assets/script/script-fading-face.js"></script>
     <script src="../_static/assets/script/scriptvideo.js"></script>
     <script src="../_static/assets/script/script_flipping_card.js"></script>
     <script src="../_static/assets/script/script_wheel.js"></script>
@@ -313,6 +312,7 @@ const thebe_selector_output = ".output, .cell_output"
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Perso</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1 has-children"><a class="reference internal" href="../Tools/Orga.html">Orga</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Tools/Dashboard.html">Sites Dashboard</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Tools/Pomodoro.html">Pomodoro</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Tools/EDT.html">Emplois du temps</a></li>
 </ul>
@@ -442,7 +442,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -458,6 +460,14 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#teaching"><strong>Teaching</strong></a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -471,7 +481,309 @@ document.write(`
 <h1>Education<a class="headerlink" href="#education" title="Permalink to this heading">#</a></h1>
 <div class="admonition-to-do admonition">
 <p class="first admonition-title">To do</p>
-<p class="last">Link</p>
+<p class="last">May be we need to transfer this stuff to Encyclopedia ?</p>
+</div>
+<div class="section" id="teaching">
+<h2><strong>Teaching</strong><a class="headerlink" href="#teaching" title="Permalink to this heading">#</a></h2>
+<div class="full-width docutils">
+<br>
+<p class="emphase2"> <strong>Cutting Edge Science </strong></p>
+<p class="emphase"> From multiple disciplines </p>
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 text-center docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-2 sd-row-cols-lg-5 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-1 sd-col-xs-1 sd-col-sm-1 sd-col-md-1 sd-col-lg-1 docutils">
+</div>
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Astronomy</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<img alt="Interests/_static/SVG_files/Disciplines/galaxy-svgrepo-com.svg" src="Interests/_static/SVG_files/Disciplines/galaxy-svgrepo-com.svg" /></div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Astronomy_Main.html" rel="noopener noreferrer" target="_blank"></a></div>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Physics</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<img alt="Interests/_static/SVG_files/Disciplines/atoms-physics-svgrepo-com.svg" src="Interests/_static/SVG_files/Disciplines/atoms-physics-svgrepo-com.svg" /></div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Physics/Physics_Main.html" rel="noopener noreferrer" target="_blank"></a></div>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Chemistry</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<img alt="Interests/_static/SVG_files/Disciplines/chemistry-svgrepo-com.svg" src="Interests/_static/SVG_files/Disciplines/chemistry-svgrepo-com.svg" /></div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Chemistry/Chemistry_Main.html" rel="noopener noreferrer" target="_blank"></a></div>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-2 sd-col-xs-2 sd-col-sm-2 sd-col-md-2 sd-col-lg-2 docutils">
+</div>
+<div class="sd-col sd-d-flex-column sd-col-1 sd-col-xs-1 sd-col-sm-1 sd-col-md-1 sd-col-lg-1 docutils">
+</div>
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Web Dev</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<img alt="Interests/_static/SVG_files/Disciplines/hand-holding-globe-svgrepo-com.svg" src="Interests/_static/SVG_files/Disciplines/hand-holding-globe-svgrepo-com.svg" /></div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/nb-teaching/_build/html/Practicle/WebDev/WebDev_Main.html" rel="noopener noreferrer" target="_blank"></a></div>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Python</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<img alt="Interests/_static/SVG_files/Disciplines/python-svgrepo-com.svg" src="Interests/_static/SVG_files/Disciplines/python-svgrepo-com.svg" /></div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/nb-teaching/_build/html/Practicle/Python/Python_Main.html" rel="noopener noreferrer" target="_blank"></a></div>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>More …</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<img alt="Interests/_static/SVG_files/Disciplines/infinity-symbol-svgrepo-com.svg" src="Interests/_static/SVG_files/Disciplines/infinity-symbol-svgrepo-com.svg" /></div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-2 sd-col-xs-2 sd-col-sm-2 sd-col-md-2 sd-col-lg-2 docutils">
+</div>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<div class="book"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="full-width docutils">
+<br>
+<p class="emphase2"><strong> Fun and Creative</strong></p>
+<p class="emphase">Organised by <span class="hovertext" data-hover="And not within a rigid curriculum">Topics</span> </p>
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<h4><strong>Astronomy</strong></h4>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Topics</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<br>
+<ul class="simple">
+<li><p class="sd-card-text first"><a class="reference external" href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Astronomy_101/Astronomy_101.html" rel="noopener noreferrer" target="_blank"><strong>Astronomy 101</strong></a>  → 👀</p>
+</li>
+</ul>
+<br>
+<ul class="simple">
+<li><p class="sd-card-text first"><a class="reference external" href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/The_solar_system/Solar_system.html" rel="noopener noreferrer" target="_blank">The Solar System</a></p>
+</li>
+<li><p class="sd-card-text first"><a class="reference external" href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html" rel="noopener noreferrer" target="_blank">Stars Lifecycle</a></p>
+</li>
+<li><p class="sd-card-text first"><a class="reference external" href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html" rel="noopener noreferrer" target="_blank">The Interstellar Medium</a></p>
+</li>
+<li><p class="sd-card-text first"><a class="reference external" href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html" rel="noopener noreferrer" target="_blank">Astrochemistry</a></p>
+</li>
+<li><p class="sd-card-text first"><a class="reference external" href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html" rel="noopener noreferrer" target="_blank">Interstellar Dust</a></p>
+</li>
+<li><p class="sd-card-text first"><a class="reference external" href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html" rel="noopener noreferrer" target="_blank">Planet formation</a></p>
+</li>
+<li><p class="sd-card-text first"><a class="reference external" href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html" rel="noopener noreferrer" target="_blank">Planet formation II</a></p>
+</li>
+<li><p class="sd-card-text first"><a class="reference external" href="https://deugz.github.io/nb-teaching/_build/html/Practicle/Python/Python_Main.html" rel="noopener noreferrer" target="_blank">Excoplanets</a></p>
+</li>
+<li><p class="sd-card-text first"><a class="reference external" href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/JWST/JWST.html" rel="noopener noreferrer" target="_blank">JWST</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<div class="center-text docutils">
+<h4> <strong>Astronomy 101</strong></h4>
+</div>
+<p class="emphase">Different difficulty levels (🟢 - 🟡 - 🔴 - 🟣) <br> Continuous integration & improvement from real feedbacks <br> Inputs from multiple and diverse scientific actors</p>
+<br>
+<div class="sd-sphinx-override sd-cards-carousel sd-card-cols-2 docutils">
+<div class="sd-col sd-d-flex-row sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 sd-m-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Introduction</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<ul class="simple">
+<li><p class="sd-card-text first"><strong>Difficulty</strong>: 🟢</p>
+</li>
+<li><p class="sd-card-text first"><strong>Status</strong>: <img alt="flag alt &gt;" src="Interests/_static/Svg_icons/Under_construction.svg" /> - 🔥</p>
+</li>
+<li><p class="sd-card-text first"><strong>Needs</strong>: 🏸 - 💏</p>
+</li>
+<li><p class="sd-card-text first"><strong>Read time</strong>: 5 min</p>
+</li>
+</ul>
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Astronomy_101/Astronomy_101.html" rel="noopener noreferrer" target="_blank"></a></div>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 sd-m-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Cosmic Inventory</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<ul class="simple">
+<li><p class="sd-card-text first"><strong>Difficulty</strong>: 🟡</p>
+</li>
+<li><p class="sd-card-text first"><strong>Status</strong>: <img alt="flag alt &gt;" src="Interests/_static/Svg_icons/Under_construction.svg" /> - 🔥</p>
+</li>
+<li><p class="sd-card-text first"><strong>Needs</strong>: 🏸 - 💏</p>
+</li>
+<li><p class="sd-card-text first"><strong>Read time</strong>: 5 min</p>
+</li>
+</ul>
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Astronomy_101/Sub_topics/Cosmic_inventory.html" rel="noopener noreferrer" target="_blank"></a></div>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 sd-m-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Historical Perspective</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<ul class="simple">
+<li><p class="sd-card-text first"><strong>Difficulty</strong>: 🔴</p>
+</li>
+<li><p class="sd-card-text first"><strong>Status</strong>: <img alt="flag alt &gt;" src="Interests/_static/Svg_icons/Under_construction.svg" /> - 🔥</p>
+</li>
+<li><p class="sd-card-text first"><strong>Needs</strong>: 🏸 - 💏</p>
+</li>
+<li><p class="sd-card-text first"><strong>Read time</strong>: 1h</p>
+</li>
+</ul>
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Astronomy_101/Sub_topics/History.html" rel="noopener noreferrer" target="_blank"></a></div>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 sd-m-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Anatomy of a telescope</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<ul class="simple">
+<li><p class="sd-card-text first"><strong>Difficulty</strong>: 🟣</p>
+</li>
+<li><p class="sd-card-text first"><strong>Status</strong>: <img alt="flag alt &gt;" src="Interests/_static/Svg_icons/Under_construction.svg" /> - 🔥</p>
+</li>
+<li><p class="sd-card-text first"><strong>Needs</strong>: 🏸 - 💏</p>
+</li>
+<li><p class="sd-card-text first"><strong>Read time</strong>: 5 min</p>
+</li>
+</ul>
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Astronomy_101/Sub_topics/Telescope_anat.html" rel="noopener noreferrer" target="_blank"></a></div>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 sd-m-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Space Missions</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<ul class="simple">
+<li><p class="sd-card-text first"><strong>Difficulty</strong>: 🟡</p>
+</li>
+<li><p class="sd-card-text first"><strong>Status</strong>: <img alt="flag alt &gt;" src="Interests/_static/Svg_icons/Under_construction.svg" /> - 🔥</p>
+</li>
+<li><p class="sd-card-text first"><strong>Needs</strong>: 🏸 - 💏</p>
+</li>
+<li><p class="sd-card-text first"><strong>Read time</strong>: 20 min</p>
+</li>
+</ul>
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Astronomy_101/Sub_topics/Missions.html" rel="noopener noreferrer" target="_blank"></a></div>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 sd-m-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Space Exploration</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<ul class="simple">
+<li><p class="sd-card-text first"><strong>Difficulty</strong>: 🟡</p>
+</li>
+<li><p class="sd-card-text first"><strong>Status</strong>: <img alt="flag alt &gt;" src="Interests/_static/Svg_icons/Under_construction.svg" /> - 🔥</p>
+</li>
+<li><p class="sd-card-text first"><strong>Needs</strong>: 🏸 - 💏</p>
+</li>
+<li><p class="sd-card-text first"><strong>Read time</strong>: 20 min</p>
+</li>
+</ul>
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/nb-teaching/_build/html/Bitesize/Astronomy/Astronomy_101/Sub_topics/Exploration.html" rel="noopener noreferrer" target="_blank"></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="full-width docutils">
+<br>
+<br>
+<p class="emphase2"><strong>  3 Formats  </strong></p>
+<p class="emphase"><strong> <span class="hovertext" data-hover="Fuck off with your deadlines !! 🤭">Lifelong</span></strong> implementation  </p>
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-3 sd-row-cols-xs-3 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
+<div class="sd-col sd-d-flex-row sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Bitesize</strong> <span style="float: right"><img alt="flag alt &gt;" src="Interests/_static/Svg_icons/pizza-svgrepo-com.svg" /></span></p>
+</div>
+<div class="sd-card-body docutils">
+<p class="sd-card-text">Small lessons to introduce specific topics that I encounter during my research journey. Overview of the various concepts relative to a scientific topics.</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Practicle</strong> <span style="float: right"><img alt="flag alt &gt;" src="Interests/_static/Svg_icons/flexed-biceps-svgrepo-com.svg" /></span></p>
+</div>
+<div class="sd-card-body docutils">
+<p class="sd-card-text">Some practical tutorials which will accompanied you in producing some material.</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Cours particuliers</strong> <span style="float: right"><img alt="flag alt &gt;" src="Interests/_static/Svg_icons/diploma-contract-svgrepo-com.svg" /></span></p>
+</div>
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><img alt="flag alt &gt;" src="Interests/_static/Svg_icons/flag-for-flag-france-svgrepo-com.svg" /></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<br>
+<br>
+<p class="emphase"> Let's go ? </p>
+<div class="center-text docutils">
+<a class="reference external" href="https://deugz.github.io/nb-teaching/_build/html/" rel="noopener noreferrer" target="_blank"><img alt="Jupyter Book Badge" src="https://jupyterbook.org/badge.svg" /></a></div>
+</p>
+</div>
 </div>
 </div>
 
@@ -533,6 +845,20 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#teaching"><strong>Teaching</strong></a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

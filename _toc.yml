@@ -30,7 +30,8 @@ parts:
   - caption: Perso
     chapters: 
     - file: Tools/Orga
-      sections: 
+      sections:
+      - file: Tools/Dashboard
       - file: Tools/Pomodoro
       - file: Tools/EDT
     - file: Ikigai/Ikigai

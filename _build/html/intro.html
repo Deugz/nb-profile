@@ -111,7 +111,6 @@ commentsRunWhenDOMLoaded(addUtterances);
 </script>
     <script src="_static/assets/script/kittons.js"></script>
     <script src="_static/assets/script/Pomodoro-script.js"></script>
-    <script src="_static/assets/script/script-fading-face.js"></script>
     <script src="_static/assets/script/scriptvideo.js"></script>
     <script src="_static/assets/script/script_flipping_card.js"></script>
     <script src="_static/assets/script/script_wheel.js"></script>
@@ -312,6 +311,7 @@ const thebe_selector_output = ".output, .cell_output"
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Perso</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1 has-children"><a class="reference internal" href="Tools/Orga.html">Orga</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="Tools/Dashboard.html">Sites Dashboard</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Tools/Pomodoro.html">Pomodoro</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Tools/EDT.html">Emplois du temps</a></li>
 </ul>
@@ -464,29 +464,12 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Profile</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ce-que-je-veux-accomplir">Ce que je veux accomplir</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#map">Map</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#audiences">Audiences</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ce-que-je-veux-creer">Ce que je veux créer</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#traductions">Traductions</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ou-je-peux-contribuer">Ou je peux contribuer</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#science">Science</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#l-education">L’ Education</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#musique">Musique</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pharmacie">Pharmacie</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#politique">Politique</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dans-le-but-d-accomplir">Dans le but d’accomplir</a></li>
 </ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#le-tout-de-maniere-collaborative">Le tout de manière Collaborative</a></li>
-</ul>
-</li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#comments">Comments</a><ul class="visible nav section-nav flex-column">
-</ul>
-</li>
-</ul>
-
             </nav>
         </div>
     </div>
@@ -583,11 +566,11 @@ document.write(`
 </div>
 </div>
 <br>
-<div class="section" id="ce-que-je-veux-accomplir">
-<h2>Ce que je veux accomplir<a class="headerlink" href="#ce-que-je-veux-accomplir" title="Permalink to this heading">#</a></h2>
+<div class="section" id="ce-que-je-veux-creer">
+<h2>Ce que je veux créer<a class="headerlink" href="#ce-que-je-veux-creer" title="Permalink to this heading">#</a></h2>
 <div class="full-width docutils">
 <br>
-<a class="reference internal image-reference" href="_images/web-3-A.png"><img alt="_images/web-3-A.png" class="align-center" src="_images/web-3-A.png" style="width: 80%;" /></a>
+<a class="reference internal image-reference" href="_images/Encyclopedia-3.png"><img alt="_images/Encyclopedia-3.png" class="align-center" src="_images/Encyclopedia-3.png" style="width: 80%;" /></a>
 <br>
 <p class="emphase">   
 Le pouvoir d'<strong>Internet</strong>, potentialisé par les outils et connaissances nécessaire afin de ...
@@ -801,7 +784,7 @@ Github</label><div class="sd-tab-content docutils">
 <p class="emphase2">   
 <strong>Enrichir </strong> ✍  
 </p>
-<p class="emphase">De tes experiences de vie, ainsi que les <strong>connaissances aquises au grés de tes pérégrinations sur les chemins du savoir</strong></p>
+<p class="emphase">De tes experiences de vie, ainsi que des <strong>connaissances aquises</strong></p>
 <div id="P1">
 <div id="subdiv2">
 <p>Je navigue dans ce terreau vertile qu’est internet et …</p>
@@ -825,11 +808,13 @@ Github</label><div class="sd-tab-content docutils">
 <p><lottie-player src="https://assets10.lottiefiles.com/packages/lf20_rbexkvmr.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;"  loop  autoplay></lottie-player></p>
 </div>
 <div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<div id="coulour">
 <ul class="simple">
-<li>Semantic Web</li>
+<li><a class="reference external" href="https://deugz.github.io/jb-background/_build/html/intro.html" rel="noopener noreferrer" target="_blank">Planet Formation</a></li>
 <li>Scientific Publication</li>
-<li>…</li>
+<li>Semantic Web</li>
 </ul>
+</div>
 </div>
 </div>
 </div>
@@ -840,9 +825,7 @@ Github</label><div class="sd-tab-content docutils">
 <p class="emphase2">   
 <strong>Créer 🤯</strong> 
 </p> 
-<p class="emphase">   
-Et voila le <strong>Résultat</strong> ...<br>
-</p>
+<br>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-row-cols-5 sd-row-cols-xs-5 sd-row-cols-sm-5 sd-row-cols-md-5 sd-row-cols-lg-5 docutils">
 <div class="sd-col sd-d-flex-column sd-col-1 sd-col-xs-1 sd-col-sm-1 sd-col-md-1 sd-col-lg-1 docutils">
@@ -883,9 +866,54 @@ Et voila le <strong>Résultat</strong> ...<br>
 </div>
 <br>
 <br>
-<hr class="docutils" />
-<br>
-<img alt="_images/Encyclopedia-3.png" src="_images/Encyclopedia-3.png" />
+</div>
+<div class="full-width docutils">
+<p class="emphase">   
+Ta <strong>base de donnée</strong> personelle, <strong>en ligne et interactive</strong><br>
+</p>
+<div class="figure align-default" id="id4">
+<img alt="_images/Map_Encyclopedia.svg" src="_images/Map_Encyclopedia.svg" /><p class="caption"><span class="caption-number">Fig. 4 </span><span class="caption-text">Web site architecture</span><a class="headerlink" href="#id4" title="Permalink to this image">#</a></p>
+</div>
+<div class="admonition-idea admonition">
+<p class="first admonition-title">idea</p>
+<ul class="last simple">
+<li>realiser un slideshow avec comme deuxième image les connections qu’il est possible d’établire (same background)</li>
+</ul>
+</div>
+</div>
+<div class="full-width docutils">
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+More infos<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-8" name="sd-tab-set-2" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-8">
+The CuriouSchool</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+<input id="sd-tab-item-9" name="sd-tab-set-2" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-9">
+Hiphop Living Arxiv</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+<input id="sd-tab-item-10" name="sd-tab-set-2" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-10">
+PhysioPharm</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">J’envisage de digitaliser les cours de pharmacie qui sont actuellements produits et consommés au format papier. Le but etant dans un second temps de créer a partir des documents produits un outil qui puisse etre rendue accessible aux patient dans le but de favoriser l’observance.</p>
+</div>
+<input id="sd-tab-item-11" name="sd-tab-set-2" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-11">
+Politique 3.A</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+</div>
+</div>
+</details></div>
+<p class="emphase">un outil utile <strong>tout au long de ta vie.</strong></p>
 <blockquote class="epigraph">
 <div><p>Ma propre base de donnée, que j’implémente au fil du temps.</p>
 <p>Je tisse ma toile de connaissance au centre duquel je place mon profile social.</p>
@@ -894,23 +922,240 @@ Et voila le <strong>Résultat</strong> ...<br>
 </div></blockquote>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">Insert card to page How do I use online book (in grid)</p>
-</div>
+<ul class="simple">
+<li>insérer slideshow avec astro picture dans audiences (au dessus)</li>
+</ul>
+<p class="last">Insert card to page How do I use online book (in grid) (a coté de paragraphe explicatif map)</p>
 </div>
 <hr class="docutils" />
-<div class="section" id="map">
-<h3>Map<a class="headerlink" href="#map" title="Permalink to this heading">#</a></h3>
-<div class="figure align-default" id="id4">
-<a class="reference internal image-reference" href="_images/Map_Encyclopedia.svg"><img alt="_images/Map_Encyclopedia.svg" src="_images/Map_Encyclopedia.svg" width="100%" /></a>
-<p class="caption"><span class="caption-number">Fig. 4 </span><span class="caption-text">Description</span><a class="headerlink" href="#id4" title="Permalink to this image">#</a></p>
+<div class="full-width docutils">
+<p class="emphase2">   
+<strong>Partager</strong> 🤝  
+</p>
+<p class="emphase"><strong>Tes oeuvres</strong>, durant le processus de création</p>
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-5 sd-row-cols-xs-5 sd-row-cols-sm-5 sd-row-cols-md-5 sd-row-cols-lg-5 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Science 3.A</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<br>
+<img alt="_images/logo_SFTP.png" src="_images/logo_SFTP.png" />
+<br>
+<br>
+<hr class="docutils" />
+<ul class="simple">
+<li><p class="sd-card-text first"><strong>Version</strong>:  <img alt="flag alt &gt;" src="_images/web-svgrepo-com.svg" /> 0.1</p>
+</li>
+<li><p class="sd-card-text first"><strong>Status</strong>: 💚</p>
+</li>
+<li><p class="sd-card-text first"><strong>Langue</strong>: <img alt="flag alt &gt;" src="_images/flag-for-flag-france-svgrepo-com.svg" /></p>
+</li>
+</ul>
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/sp-Science_Journey/build/html/index.html" rel="noopener noreferrer" target="_blank"></a></div>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>The CuriouSchool</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<br>
+<img alt="_images/logo_SFTP.png" src="_images/logo_SFTP.png" />
+<br>
+<br>
+<hr class="docutils" />
+<ul class="simple">
+<li><p class="sd-card-text first"><strong>Version</strong>: <img alt="flag alt &gt;" src="_images/web-svgrepo-com.svg" /> 0.1</p>
+</li>
+<li><p class="sd-card-text first"><strong>Status</strong>: 💚</p>
+</li>
+<li><p class="sd-card-text first"><strong>Langue</strong>: <img alt="flag alt &gt;" src="_images/flag-for-flag-france-svgrepo-com.svg" /></p>
+</li>
+</ul>
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/sp-Education_Journey/build/html/index.html" rel="noopener noreferrer" target="_blank"></a></div>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Hiphop Living Arxiv</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<br>
+<a class="reference internal image-reference" href="_images/HLA-Logo.png"><img alt="_images/HLA-Logo.png" class="align-center" src="_images/HLA-Logo.png" style="width: 91%;" /></a>
+<br>
+<hr class="docutils" />
+<ul class="simple">
+<li><p class="sd-card-text first"><strong>Version</strong>: <img alt="flag alt &gt;" src="_images/web-svgrepo-com.svg" /> 0.1</p>
+</li>
+<li><p class="sd-card-text first"><strong>Status</strong>: 🧡</p>
+</li>
+<li><p class="sd-card-text first"><strong>Langue</strong>: <img alt="flag alt &gt;" src="_images/flag-for-flag-france-svgrepo-com.svg" /></p>
+</li>
+</ul>
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/sp-Hiphop_Journey/build/html/index.html" rel="noopener noreferrer" target="_blank"></a></div>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Physiopharm</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<br>
+<img alt="_images/logo_SFTP.png" src="_images/logo_SFTP.png" />
+<br>
+<br>
+<hr class="docutils" />
+<ul class="simple">
+<li><p class="sd-card-text first"><strong>Version</strong>: <img alt="flag alt &gt;" src="_images/web-svgrepo-com.svg" /> 0.1</p>
+</li>
+<li><p class="sd-card-text first"><strong>Status</strong>: 💚</p>
+</li>
+<li><p class="sd-card-text first"><strong>Langue</strong>: <img alt="flag alt &gt;" src="_images/flag-for-flag-france-svgrepo-com.svg" /></p>
+</li>
+</ul>
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/sp-Pharma_Journey/build/html/index.html" rel="noopener noreferrer" target="_blank"></a></div>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Politique 3.A</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<br>
+<img alt="_images/logo_SFTP.png" src="_images/logo_SFTP.png" />
+<br>
+<br>
+<hr class="docutils" />
+<ul class="simple">
+<li><p class="sd-card-text first"><strong>Version</strong>: <img alt="flag alt &gt;" src="_images/web-svgrepo-com.svg" /> 0.1</p>
+</li>
+<li><p class="sd-card-text first"><strong>Status</strong>: 💚</p>
+</li>
+<li><p class="sd-card-text first"><strong>Langue</strong>: <img alt="flag alt &gt;" src="_images/flag-for-flag-france-svgrepo-com.svg" /></p>
+</li>
+</ul>
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/sp-Politique_Journey/build/html/index.html" rel="noopener noreferrer" target="_blank"></a></div>
 </div>
 </div>
-<div class="section" id="audiences">
-<h3>Audiences<a class="headerlink" href="#audiences" title="Permalink to this heading">#</a></h3>
+</div>
+</div>
+<br>
+<div class="warning margin admonition">
+<p class="first admonition-title">In progress</p>
+<p class="last">Tout ces projets sont dans leur exploratoire, c’est a dire qu’ils n’ont pour l’instant pas vocation a être partagés.</p>
+</div>
+<blockquote>
+<div>Personelemnt, j’ai créé un site pour chacun de mes interets (ie des chemins que j’ai voulue emprunter dans ma vie). Pour chacun d’entre eux, j’ai éxperimenté les limites de la bureaucratie et j’envisage de tester la méthode que je vous ai décrite plus haut pour chacun de ces domaines</div></blockquote>
+<br>
+<br>
+<div class="full-width docutils">
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+More infos<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-12" name="sd-tab-set-3" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-12">
+Overview</label><div class="sd-tab-content docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 docutils">
+<p class="sd-card-text">This is a traduction window, feel free to use the commenting tool to add your contribution. (link how-to)</p>
+<p class="sd-card-text">PS: <em>Don’t be offended by the character I have choosen for your country, unfortenately html character flags is not a thing.</em></p>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text"><strong>Legend</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<br>
+- 🥖 France
+<br>
+- 🍕 Italy
+<br>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input id="sd-tab-item-13" name="sd-tab-set-3" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-13">
+Science 3.A</label><div class="sd-tab-content docutils">
+<p class="emphase"><strong>Mon Doctorat </strong> </p>
+<blockquote class="epigraph">
+<div><p class="sd-card-text">I would like to use my thesis as a creative opportunity to produce an online <strong>Research compendium</strong>. This would be a <strong>proof of concept</strong> that publishing scientific work online is feasable and add values.</p>
+</div></blockquote>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
+<p class="sd-card-text last">Insérer lien vers scientific interests</p>
+</div>
+<p class="emphase"><strong>La Publication Scientifique </strong> </p>
+<p class="sd-card-text">Un système <strong>mafieux</strong> qui coute trés chère.</p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<blockquote>
+<div><p class="sd-card-text">Voici une brève, simple et plutôt correcte introduction a ce qu’est la publication scientifique, réalisé par le trés bon <a class="reference external" href="https://www.youtube.com/&#64;dirtybiology" rel="noopener noreferrer" target="_blank">DirtyBiology</a>. Le terme de mafia n’est pas galvaudé. En effet, …</p>
+</div></blockquote>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<div class="embedresize">
+<iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/rcgxY__YXEc?start=19" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input id="sd-tab-item-14" name="sd-tab-set-3" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-14">
+The CuriouSchool</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+<input id="sd-tab-item-15" name="sd-tab-set-3" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-15">
+Hiphop Living Arxiv</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+<input id="sd-tab-item-16" name="sd-tab-set-3" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-16">
+PhysioPharm</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">J’envisage de digitaliser les cours de pharmacie qui sont actuellements produits et consommés au format papier. Le but etant dans un second temps de créer a partir des documents produits un outil qui puisse etre rendue accessible aux patient dans le but de favoriser l’observance.</p>
+</div>
+<input id="sd-tab-item-17" name="sd-tab-set-3" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-17">
+Politique 3.A</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+</div>
+</div>
+</details></div>
+<div class="full-width docutils">
+<p class="emphase">Dans le but de favoriser les opportunités de ...</p>
+<hr class="docutils" />
+<br>
+<p class="emphase2">   
+<strong>Comuniquer</strong> 💬 
+</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>Insérer le outils collaboratifs</p>
 <ul class="last simple">
-<li>Insérer fish diagram</li>
+<li>Github</li>
+<li>Hypothesis</li>
 </ul>
 </div>
 </div>
@@ -925,8 +1170,8 @@ Traduction<div class="sd-summary-down docutils">
 <svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
 </summary><div class="sd-summary-content sd-card-body docutils">
 <div class="sd-tab-set docutils">
-<input checked="checked" id="sd-tab-item-8" name="sd-tab-set-2" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-8">
+<input checked="checked" id="sd-tab-item-18" name="sd-tab-set-4" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-18">
 🌎</label><div class="sd-tab-content docutils">
 <p class="sd-card-text">This is a traduction window, feel free to use the commenting tool to add your contribution. Each sign represent a country, here is the legend:
 <br></p>
@@ -940,8 +1185,8 @@ Traduction<div class="sd-summary-down docutils">
 <br>
 <p class="sd-card-text">PS: <em>Don’t be offended by the character I have choosen for your country, unfortenately html character flags is not a thing.</em></p>
 </div>
-<input id="sd-tab-item-9" name="sd-tab-set-2" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-9">
+<input id="sd-tab-item-19" name="sd-tab-set-4" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-19">
 🥖</label><div class="sd-tab-content docutils">
 <p class="emphase2"><strong>La Publication Scientifique </strong> </p>
 <p class="emphase">Un système <strong>mafieux</strong> qui coute trés chère</p>
@@ -960,287 +1205,33 @@ Traduction<div class="sd-summary-down docutils">
 </div>
 </div>
 </div>
-<input id="sd-tab-item-10" name="sd-tab-set-2" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-10">
-💂</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
-</div>
-<input id="sd-tab-item-11" name="sd-tab-set-2" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-11">
-💃</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
-</div>
-<input id="sd-tab-item-12" name="sd-tab-set-2" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-12">
-🍕</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
-</div>
-<input id="sd-tab-item-13" name="sd-tab-set-2" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-13">
-🍺</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
-</div>
-<input id="sd-tab-item-14" name="sd-tab-set-2" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-14">
-🍙</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
-</div>
-<input id="sd-tab-item-15" name="sd-tab-set-2" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-15">
-🥥</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
-</div>
-</div>
-</div>
-</details></div>
-<p class="emphase"> Pour nous, avec tous</p>
-</div>
-</div>
-<div class="section" id="ou-je-peux-contribuer">
-<h2>Ou je peux contribuer<a class="headerlink" href="#ou-je-peux-contribuer" title="Permalink to this heading">#</a></h2>
-<div class="section" id="science">
-<h3>Science<a class="headerlink" href="#science" title="Permalink to this heading">#</a></h3>
-<p class="emphase2"><strong>Science 3.A</strong></p>
-<div class="full-width docutils">
-<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
-<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
-<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 docutils">
-<blockquote class="epigraph">
-<div>I would like to use my thesis as a creative opportunity to produce an online <strong>Research compendium</strong>. This would be a <strong>proof of concept</strong> that publishing scientific work online is feasable and add values.</div></blockquote>
-</div>
-<div class="sd-col sd-d-flex-column sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
-<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm sd-card-hover docutils">
-<div class="sd-card-header bg-light docutils">
-<p class="sd-card-text"><strong>Website</strong> <img alt="flag alt &gt;" src="_images/web-svgrepo-com.svg" /></p>
-</div>
-<div class="sd-card-body docutils">
-<br>
-<img alt="_images/logo_SFTP.png" src="_images/logo_SFTP.png" />
-<br>
-<br>
-<br>
-<ul class="simple">
-<li><p class="sd-card-text first"><strong>Status</strong>: 💚</p>
-</li>
-<li><p class="sd-card-text first"><strong>Version</strong>: 0.1</p>
-</li>
-</ul>
-</div>
-<a class="sd-stretched-link reference external" href="https://deugz.github.io/sp-Science_Journey/build/html/index.html" rel="noopener noreferrer" target="_blank"></a></div>
-<br>
-<br>
-<blockquote class="trello-board-compact">
-  <a href="https://trello.com/b/6fSWY6uW/nb-master">Trello Board</a>
-</blockquote>
-</div>
-</div>
-</div>
-</div>
-<div class="full-width docutils">
-<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
-<summary class="sd-summary-title sd-card-header">
-Traduction<div class="sd-summary-down docutils">
-<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
-<div class="sd-summary-up docutils">
-<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
-</summary><div class="sd-summary-content sd-card-body docutils">
-<div class="sd-tab-set docutils">
-<input checked="checked" id="sd-tab-item-16" name="sd-tab-set-3" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-16">
-🌎</label><div class="sd-tab-content docutils">
-<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
-<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
-<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 docutils">
-<p class="sd-card-text">This is a traduction window, feel free to use the commenting tool to add your contribution. (link how-to)</p>
-<p class="sd-card-text">PS: <em>Don’t be offended by the character I have choosen for your country, unfortenately html character flags is not a thing.</em></p>
-</div>
-<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
-<div class="sd-card-header docutils">
-<p class="sd-card-text"><strong>Legend</strong></p>
-</div>
-<div class="sd-card-body docutils">
-<br>
-- 🥖 France
-<br>
-- 🍕 Italy
-<br>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<input id="sd-tab-item-17" name="sd-tab-set-3" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-17">
-🥖</label><div class="sd-tab-content docutils">
-<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
-<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
-<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
-<blockquote>
-<div><p class="sd-card-text">Voici une brève, simple et plutôt correcte introduction a ce qu’est la publication scientifique, réalisé par le trés bon <a class="reference external" href="https://www.youtube.com/&#64;dirtybiology" rel="noopener noreferrer" target="_blank">DirtyBiology</a>. Le terme de mafia n’est pas galvaudé. En effet, …</p>
-</div></blockquote>
-</div>
-<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
-<div class="embedresize">
-<iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/rcgxY__YXEc?start=19" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-</div>
-</div>
-</div>
-</div>
-<input id="sd-tab-item-18" name="sd-tab-set-3" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-18">
-💂</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
-</div>
-<input id="sd-tab-item-19" name="sd-tab-set-3" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-19">
-💃</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
-</div>
-<input id="sd-tab-item-20" name="sd-tab-set-3" type="radio">
+<input id="sd-tab-item-20" name="sd-tab-set-4" type="radio">
 </input><label class="sd-tab-label" for="sd-tab-item-20">
+💂</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+<input id="sd-tab-item-21" name="sd-tab-set-4" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-21">
+💃</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
+</div>
+<input id="sd-tab-item-22" name="sd-tab-set-4" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-22">
 🍕</label><div class="sd-tab-content docutils">
 <p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
 </div>
-<input id="sd-tab-item-21" name="sd-tab-set-3" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-21">
+<input id="sd-tab-item-23" name="sd-tab-set-4" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-23">
 🍺</label><div class="sd-tab-content docutils">
 <p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
 </div>
-<input id="sd-tab-item-22" name="sd-tab-set-3" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-22">
+<input id="sd-tab-item-24" name="sd-tab-set-4" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-24">
 🍙</label><div class="sd-tab-content docutils">
 <p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
-</div>
-<input id="sd-tab-item-23" name="sd-tab-set-3" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-23">
-🥥</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
-</div>
-</div>
-</div>
-</details></div>
-</div>
-<div class="section" id="l-education">
-<h3>L’ Education<a class="headerlink" href="#l-education" title="Permalink to this heading">#</a></h3>
-<p class="emphase2"><strong>The CuriouSchool</strong></p>
-<div class="full-width docutils">
-<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
-<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
-<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 docutils">
-<blockquote class="epigraph">
-<div>I would like to use my thesis as a creative opportunity to produce an online <strong>Research compendium</strong>. This would be a <strong>proof of concept</strong> that publishing scientific work online is feasable and add values.</div></blockquote>
-</div>
-<div class="sd-col sd-d-flex-column sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
-<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm sd-card-hover docutils">
-<div class="sd-card-header bg-light docutils">
-<p class="sd-card-text"><strong>Website</strong> <img alt="flag alt &gt;" src="_images/web-svgrepo-com.svg" /></p>
-</div>
-<div class="sd-card-body docutils">
-<br>
-<img alt="_images/logo_SFTP.png" src="_images/logo_SFTP.png" />
-<br>
-<br>
-<br>
-<ul class="simple">
-<li><p class="sd-card-text first"><strong>Status</strong>: 💚</p>
-</li>
-<li><p class="sd-card-text first"><strong>Version</strong>:0.1</p>
-</li>
-</ul>
-</div>
-<a class="sd-stretched-link reference external" href="https://deugz.github.io/sp-Education_Journey/build/html/index.html" rel="noopener noreferrer" target="_blank"></a></div>
-<br>
-<br>
-<blockquote class="trello-board-compact">
-  <a href="https://trello.com/b/6fSWY6uW/nb-master">Trello Board</a>
-</blockquote>
-</div>
-</div>
-</div>
-</div>
-<div class="full-width docutils">
-<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
-<summary class="sd-summary-title sd-card-header">
-Traduction<div class="sd-summary-down docutils">
-<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
-<div class="sd-summary-up docutils">
-<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
-</summary><div class="sd-summary-content sd-card-body docutils">
-<div class="sd-tab-set docutils">
-<input checked="checked" id="sd-tab-item-24" name="sd-tab-set-4" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-24">
-🌎</label><div class="sd-tab-content docutils">
-<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
-<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
-<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 docutils">
-<p class="sd-card-text">This is a traduction window, feel free to use the commenting tool to add your contribution. (link how-to)</p>
-<p class="sd-card-text">PS: <em>Don’t be offended by the character I have choosen for your country, unfortenately html character flags is not a thing.</em></p>
-</div>
-<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
-<div class="sd-card-header docutils">
-<p class="sd-card-text"><strong>Legend</strong></p>
-</div>
-<div class="sd-card-body docutils">
-<br>
-- 🥖 France
-<br>
-- 🍕 Italy
-<br>
-</div>
-</div>
-</div>
-</div>
-</div>
 </div>
 <input id="sd-tab-item-25" name="sd-tab-set-4" type="radio">
 </input><label class="sd-tab-label" for="sd-tab-item-25">
-🥖</label><div class="sd-tab-content docutils">
-<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
-<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
-<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
-<blockquote>
-<div><p class="sd-card-text">Voici une brève, simple et plutôt correcte introduction a ce qu’est la publication scientifique, réalisé par le trés bon <a class="reference external" href="https://www.youtube.com/&#64;dirtybiology" rel="noopener noreferrer" target="_blank">DirtyBiology</a>. Le terme de mafia n’est pas galvaudé. En effet, …</p>
-</div></blockquote>
-</div>
-<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
-<div class="embedresize">
-<iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/rcgxY__YXEc?start=19" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-</div>
-</div>
-</div>
-</div>
-<input id="sd-tab-item-26" name="sd-tab-set-4" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-26">
-💂</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
-</div>
-<input id="sd-tab-item-27" name="sd-tab-set-4" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-27">
-💃</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
-</div>
-<input id="sd-tab-item-28" name="sd-tab-set-4" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-28">
-🍕</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
-</div>
-<input id="sd-tab-item-29" name="sd-tab-set-4" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-29">
-🍺</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
-</div>
-<input id="sd-tab-item-30" name="sd-tab-set-4" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-30">
-🍙</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
-</div>
-<input id="sd-tab-item-31" name="sd-tab-set-4" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-31">
 🥥</label><div class="sd-tab-content docutils">
 <p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
 </div>
@@ -1248,419 +1239,78 @@ Traduction<div class="sd-summary-down docutils">
 </div>
 </details></div>
 </div>
-<div class="section" id="musique">
-<h3>Musique<a class="headerlink" href="#musique" title="Permalink to this heading">#</a></h3>
+</div>
+<div class="section" id="dans-le-but-d-accomplir">
+<h2>Dans le but d’accomplir<a class="headerlink" href="#dans-le-but-d-accomplir" title="Permalink to this heading">#</a></h2>
 <div class="full-width docutils">
+<br>
+<a class="reference internal image-reference" href="_images/web-3-A.png"><img alt="_images/web-3-A.png" class="align-center" src="_images/web-3-A.png" style="width: 80%;" /></a>
+<br>
+<p class="emphase">   
+Un Réseau Sociale, Solidaire, Colaboratif, Anarchiste et Durable, dédié a l'Exploration et au Partage des Connaisances.  
+</p> 
+<hr class="docutils" />
+<br>
+</div>
+<div class="full-width docutils">
+<p class="emphase2"><strong>Réseau</strong></p>
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+Pour l’instant je suis seul mais le but ultime est de rassembler pour créer un réseau</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<p><lottie-player src="https://lottie.host/e91efd57-1f6e-4bd8-8b03-f7196ee8d589/7NH8fjDyF1.json" background="#fff" speed="1" style="width: 300px; height: 300px" direction="1" mode="normal" loop controls autoplay></lottie-player></p>
+</div>
+</div>
+</div>
+<p class="emphase2"><strong>Exploration</strong></p>
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+Ecrire ces pages me procure énormément de plaisir et j’espère pouvoir t’en apporter au moins autant que j’en ai pris a écrire ces lignes. Cela me demande également beaucoup d’effort. N’hésite pas a commenter pour me donner de la force et aporter ta pierre a cet édifice dont nous appercevons les fondations.</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<p><lottie-player src="https://lottie.host/2da1ae07-1150-49ef-9f50-c33bc4c49d58/CkDXKlbPlx.json" background="#fff" speed="1" style="width: 300px; height: 300px" direction="1" mode="normal" loop autoplay></lottie-player></p>
+</div>
+</div>
+</div>
+<p class="emphase2"><strong>Connaissances</strong></p>
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+La connaissance est un trésor, dont le chemin est finalement plus intéressant que la découverte elle-même. C’est cela que je veux partager</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<p><lottie-player src="https://lottie.host/0966a05c-dbc7-46b7-91f0-b5493d6f8673/xc1cowFHzl.json" background="#fff" speed="1" style="width: 300px; height: 300px" direction="1" mode="normal" loop controls autoplay></lottie-player></p>
+</div>
+</div>
+</div>
+<p class="emphase2"><strong>Participatif</strong></p>
+<br>
+<p class="emphase"><strong> Un réseau d'Exploration des Connaissances Participatif</strong></p>
+</div>
+<div class="full-width docutils">
+<h1> Comments </h1>
+<br>
+<script src="https://utteranc.es/client.js"
+        repo="Deugz/nb-profile"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+</div>
+<div class="full-width docutils">
+<p class="emphase2"><strong>Contribute</strong></p>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
 <div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 docutils">
 <blockquote class="epigraph">
-<div>I would like to use my thesis as a creative opportunity to produce an online <strong>Research compendium</strong>. This would be a <strong>proof of concept</strong> that publishing scientific work online is feasable and add values.</div></blockquote>
-</div>
-<div class="sd-col sd-d-flex-column sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
-<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm sd-card-hover docutils">
-<div class="sd-card-header bg-light docutils">
-<p class="sd-card-text"><strong>Website</strong> <img alt="flag alt &gt;" src="_images/web-svgrepo-com.svg" /></p>
-</div>
-<div class="sd-card-body docutils">
-<br>
-<img alt="_images/HLA-Logo.png" src="_images/HLA-Logo.png" />
-<br>
-<br>
-<br>
-<ul class="simple">
-<li><p class="sd-card-text first"><strong>Status</strong>: 🧡</p>
-</li>
-<li><p class="sd-card-text first"><strong>Version</strong>:0.1</p>
-</li>
-</ul>
-</div>
-<a class="sd-stretched-link reference external" href="https://deugz.github.io/sp-Hiphop_Journey/build/html/index.html" rel="noopener noreferrer" target="_blank"></a></div>
-<br>
-<br>
-<blockquote class="trello-board-compact">
-  <a href="https://trello.com/b/6fSWY6uW/nb-master">Trello Board</a>
-</blockquote>
-</div>
-</div>
-</div>
-</div>
-<div class="full-width docutils">
-<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
-<summary class="sd-summary-title sd-card-header">
-Traduction<div class="sd-summary-down docutils">
-<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
-<div class="sd-summary-up docutils">
-<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
-</summary><div class="sd-summary-content sd-card-body docutils">
-<div class="sd-tab-set docutils">
-<input checked="checked" id="sd-tab-item-32" name="sd-tab-set-5" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-32">
-🌎</label><div class="sd-tab-content docutils">
-<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
-<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
-<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 docutils">
-<p class="sd-card-text">This is a traduction window, feel free to use the commenting tool to add your contribution. (link how-to)</p>
-<p class="sd-card-text">PS: <em>Don’t be offended by the character I have choosen for your country, unfortenately html character flags is not a thing.</em></p>
-</div>
-<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
-<div class="sd-card-header docutils">
-<p class="sd-card-text"><strong>Legend</strong></p>
-</div>
-<div class="sd-card-body docutils">
-<br>
-- 🥖 France
-<br>
-- 🍕 Italy
-<br>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<input id="sd-tab-item-33" name="sd-tab-set-5" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-33">
-🥖</label><div class="sd-tab-content docutils">
-<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
-<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
-<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
-<blockquote>
-<div><p class="sd-card-text">Voici une brève, simple et plutôt correcte introduction a ce qu’est la publication scientifique, réalisé par le trés bon <a class="reference external" href="https://www.youtube.com/&#64;dirtybiology" rel="noopener noreferrer" target="_blank">DirtyBiology</a>. Le terme de mafia n’est pas galvaudé. En effet, …</p>
-</div></blockquote>
-</div>
-<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
-<div class="embedresize">
-<iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/rcgxY__YXEc?start=19" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-</div>
-</div>
-</div>
-</div>
-<input id="sd-tab-item-34" name="sd-tab-set-5" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-34">
-💂</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
-</div>
-<input id="sd-tab-item-35" name="sd-tab-set-5" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-35">
-💃</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
-</div>
-<input id="sd-tab-item-36" name="sd-tab-set-5" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-36">
-🍕</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
-</div>
-<input id="sd-tab-item-37" name="sd-tab-set-5" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-37">
-🍺</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
-</div>
-<input id="sd-tab-item-38" name="sd-tab-set-5" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-38">
-🍙</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
-</div>
-<input id="sd-tab-item-39" name="sd-tab-set-5" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-39">
-🥥</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
-</div>
-</div>
-</div>
-</details></div>
-</div>
-<div class="section" id="pharmacie">
-<h3>Pharmacie<a class="headerlink" href="#pharmacie" title="Permalink to this heading">#</a></h3>
-<div class="full-width docutils">
-<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
-<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
-<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 docutils">
-J’envisage de digitaliser les cours de pharmacie qui sont actuellements produits et consommés au format papier. Le but etant dans un second temps de créer a partir des documents produits un outil qui puisse etre rendue accessible aux patient dans le but de favoriser l’observance.</div>
-<div class="sd-col sd-d-flex-column sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
-<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm sd-card-hover docutils">
-<div class="sd-card-header bg-light docutils">
-<p class="sd-card-text"><strong>Website</strong> <img alt="flag alt &gt;" src="_images/web-svgrepo-com.svg" /></p>
-</div>
-<div class="sd-card-body docutils">
-<br>
-<img alt="_images/logo_SFTP.png" src="_images/logo_SFTP.png" />
-<br>
-<br>
-<br>
-<ul class="simple">
-<li><p class="sd-card-text first"><strong>Status</strong>: 💚</p>
-</li>
-<li><p class="sd-card-text first"><strong>Version</strong>:0.1</p>
-</li>
-</ul>
-</div>
-<a class="sd-stretched-link reference external" href="https://deugz.github.io/sp-Pharma_Journey/build/html/index.html" rel="noopener noreferrer" target="_blank"></a></div>
-<br>
-<br>
-<blockquote class="trello-board-compact">
-  <a href="https://trello.com/b/6fSWY6uW/nb-master">Trello Board</a>
-</blockquote>
-</div>
-</div>
-</div>
-</div>
-<div class="full-width docutils">
-<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
-<summary class="sd-summary-title sd-card-header">
-Traduction<div class="sd-summary-down docutils">
-<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
-<div class="sd-summary-up docutils">
-<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
-</summary><div class="sd-summary-content sd-card-body docutils">
-<div class="sd-tab-set docutils">
-<input checked="checked" id="sd-tab-item-40" name="sd-tab-set-6" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-40">
-🌎</label><div class="sd-tab-content docutils">
-<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
-<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
-<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 docutils">
-<p class="sd-card-text">This is a traduction window, feel free to use the commenting tool to add your contribution. (link how-to)</p>
-<p class="sd-card-text">PS: <em>Don’t be offended by the character I have choosen for your country, unfortenately html character flags is not a thing.</em></p>
-</div>
-<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
-<div class="sd-card-header docutils">
-<p class="sd-card-text"><strong>Legend</strong></p>
-</div>
-<div class="sd-card-body docutils">
-<br>
-- 🥖 France
-<br>
-- 🍕 Italy
-<br>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<input id="sd-tab-item-41" name="sd-tab-set-6" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-41">
-🥖</label><div class="sd-tab-content docutils">
-<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
-<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
-<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
-<blockquote>
-<div><p class="sd-card-text">Voici une brève, simple et plutôt correcte introduction a ce qu’est la publication scientifique, réalisé par le trés bon <a class="reference external" href="https://www.youtube.com/&#64;dirtybiology" rel="noopener noreferrer" target="_blank">DirtyBiology</a>. Le terme de mafia n’est pas galvaudé. En effet, …</p>
-</div></blockquote>
-</div>
-<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
-<div class="embedresize">
-<iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/rcgxY__YXEc?start=19" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-</div>
-</div>
-</div>
-</div>
-<input id="sd-tab-item-42" name="sd-tab-set-6" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-42">
-💂</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
-</div>
-<input id="sd-tab-item-43" name="sd-tab-set-6" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-43">
-💃</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
-</div>
-<input id="sd-tab-item-44" name="sd-tab-set-6" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-44">
-🍕</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
-</div>
-<input id="sd-tab-item-45" name="sd-tab-set-6" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-45">
-🍺</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
-</div>
-<input id="sd-tab-item-46" name="sd-tab-set-6" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-46">
-🍙</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
-</div>
-<input id="sd-tab-item-47" name="sd-tab-set-6" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-47">
-🥥</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
-</div>
-</div>
-</div>
-</details></div>
-</div>
-<div class="section" id="politique">
-<h3>Politique<a class="headerlink" href="#politique" title="Permalink to this heading">#</a></h3>
-<div class="full-width docutils">
-<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
-<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
-<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 docutils">
-<blockquote class="epigraph">
-<div>I would like to use my thesis as a creative opportunity to produce an online <strong>Research compendium</strong>. This would be a <strong>proof of concept</strong> that publishing scientific work online is feasable and add values.</div></blockquote>
-</div>
-<div class="sd-col sd-d-flex-column sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
-<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm sd-card-hover docutils">
-<div class="sd-card-header bg-light docutils">
-<p class="sd-card-text"><strong>Website</strong> <img alt="flag alt &gt;" src="_images/web-svgrepo-com.svg" /></p>
-</div>
-<div class="sd-card-body docutils">
-<br>
-<img alt="_images/logo_SFTP.png" src="_images/logo_SFTP.png" />
-<br>
-<br>
-<br>
-<ul class="simple">
-<li><p class="sd-card-text first"><strong>Status</strong>: 💚</p>
-</li>
-<li><p class="sd-card-text first"><strong>Version</strong>:0.1</p>
-</li>
-</ul>
-</div>
-<a class="sd-stretched-link reference external" href="https://deugz.github.io/sp-Politique_Journey/build/html/index.html" rel="noopener noreferrer" target="_blank"></a></div>
-<br>
-<br>
-<blockquote class="trello-board-compact">
-  <a href="https://trello.com/b/6fSWY6uW/nb-master">Trello Board</a>
-</blockquote>
-</div>
-</div>
-</div>
-</div>
-<div class="full-width docutils">
-<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
-<summary class="sd-summary-title sd-card-header">
-Traduction<div class="sd-summary-down docutils">
-<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
-<div class="sd-summary-up docutils">
-<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
-</summary><div class="sd-summary-content sd-card-body docutils">
-<div class="sd-tab-set docutils">
-<input checked="checked" id="sd-tab-item-48" name="sd-tab-set-7" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-48">
-🌎</label><div class="sd-tab-content docutils">
-<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
-<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
-<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 docutils">
-<p class="sd-card-text">This is a traduction window, feel free to use the commenting tool to add your contribution. (link how-to)</p>
-<p class="sd-card-text">PS: <em>Don’t be offended by the character I have choosen for your country, unfortenately html character flags is not a thing.</em></p>
-</div>
-<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
-<div class="sd-card-header docutils">
-<p class="sd-card-text"><strong>Legend</strong></p>
-</div>
-<div class="sd-card-body docutils">
-<br>
-- 🥖 France
-<br>
-- 🍕 Italy
-<br>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<input id="sd-tab-item-49" name="sd-tab-set-7" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-49">
-🥖</label><div class="sd-tab-content docutils">
-<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
-<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
-<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
-<blockquote>
-<div><p class="sd-card-text">Voici une brève, simple et plutôt correcte introduction a ce qu’est la publication scientifique, réalisé par le trés bon <a class="reference external" href="https://www.youtube.com/&#64;dirtybiology" rel="noopener noreferrer" target="_blank">DirtyBiology</a>. Le terme de mafia n’est pas galvaudé. En effet, …</p>
-</div></blockquote>
-</div>
-<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
-<div class="embedresize">
-<iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/rcgxY__YXEc?start=19" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-</div>
-</div>
-</div>
-</div>
-<input id="sd-tab-item-50" name="sd-tab-set-7" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-50">
-💂</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
-</div>
-<input id="sd-tab-item-51" name="sd-tab-set-7" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-51">
-💃</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
-</div>
-<input id="sd-tab-item-52" name="sd-tab-set-7" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-52">
-🍕</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
-</div>
-<input id="sd-tab-item-53" name="sd-tab-set-7" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-53">
-🍺</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
-</div>
-<input id="sd-tab-item-54" name="sd-tab-set-7" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-54">
-🍙</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
-</div>
-<input id="sd-tab-item-55" name="sd-tab-set-7" type="radio">
-</input><label class="sd-tab-label" for="sd-tab-item-55">
-🥥</label><div class="sd-tab-content docutils">
-<p class="sd-card-text">My second tab with <code class="docutils literal notranslate"><span class="pre">some</span> <span class="pre">code</span></code>!</p>
-</div>
-</div>
-</div>
-</details></div>
-</div>
-</div>
-<div class="section" id="le-tout-de-maniere-collaborative">
-<h2>Le tout de manière Collaborative<a class="headerlink" href="#le-tout-de-maniere-collaborative" title="Permalink to this heading">#</a></h2>
-</div>
-</div>
-<div class="tex2jax_ignore mathjax_ignore section" id="comments">
-<h1>Comments<a class="headerlink" href="#comments" title="Permalink to this heading">#</a></h1>
-<div class="full-width docutils">
-<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
-<div class="sd-row sd-row-cols-3 sd-row-cols-xs-3 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
-<div class="sd-col sd-d-flex-row sd-col-5 sd-col-xs-5 sd-col-sm-5 sd-col-md-5 sd-col-lg-5 docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
-<div class="sd-card-header bg-light docutils">
-<p class="sd-card-text"><strong>Notes</strong></p>
-</div>
-<div class="sd-card-body docutils">
-<br>
-<blockquote class="trello-card"> 
-  <a href="https://trello.com/c/WTiMvieA/3-intromd">Trello Card</a>
-</blockquote>
-<script src="https://p.trellocdn.com/embed.min.js"></script>
-</div>
-</div>
-</div>
-<div class="sd-col sd-d-flex-row sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
-<div class="sd-card-header bg-light docutils">
-<p class="sd-card-text"><strong>Page</strong></p>
-</div>
-<div class="sd-card-body docutils">
-<br>
-<ul class="simple">
-<li><p class="sd-card-text first">Author:  Vincent Deguin;</p>
-</li>
-<li><p class="sd-card-text first">Status:  ✅ <span class="hovertext" data-hover="To be Reviewed">🔎</span></p>
-</li>
-<li><p class="sd-card-text first">Reviewed: <span class="hovertext" data-hover="Insert here who has done what">❌</span></p>
-</li>
-<li><p class="sd-card-text first">Updated: 28/05/2023</p>
-</li>
-</ul>
-</div>
-</div>
+<div>Your comments and interaction with the website are the best reward I can get, but I also want to keep this project free and sustainable for me. You are free to contribute contribute financially if you wish.</div></blockquote>
 </div>
 <div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
 <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
@@ -1681,20 +1331,8 @@ Traduction<div class="sd-summary-down docutils">
 </div>
 </div>
 </div>
-<hr class="docutils" />
-<div class="full-width docutils">
-<ul class="simple">
-<li><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Deugz/nb-profile?color=green&amp;style=plastic" /> - <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Deugz/nb-profile?color=yellow&amp;style=plastic" /> - <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Deugz/nb-profile?color=red&amp;style=plastic" /> - <img alt="visitors" src="https://page-views.glitch.me/badge?page_id=https://deugz.github.io/nb-profile/_build/html/intro.html" /> - <img alt="watchers" src="https://img.shields.io/github/watchers/Deugz/nb-profile?style=social" /> - <img alt="stars" src="https://img.shields.io/github/stars/Deugz/nb-profile?style=social" /></li>
-</ul>
 </div>
-<hr class="docutils" />
-<script src="https://utteranc.es/client.js"
-        repo="Deugz/nb-profile"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script><div class="toctree-wrapper compound">
+<div class="toctree-wrapper compound">
 </div>
 <div class="toctree-wrapper compound">
 </div>
@@ -1764,29 +1402,12 @@ Traduction<div class="sd-summary-down docutils">
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Profile</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ce-que-je-veux-accomplir">Ce que je veux accomplir</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#map">Map</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#audiences">Audiences</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ce-que-je-veux-creer">Ce que je veux créer</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#traductions">Traductions</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ou-je-peux-contribuer">Ou je peux contribuer</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#science">Science</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#l-education">L’ Education</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#musique">Musique</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pharmacie">Pharmacie</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#politique">Politique</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dans-le-but-d-accomplir">Dans le but d’accomplir</a></li>
 </ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#le-tout-de-maniere-collaborative">Le tout de manière Collaborative</a></li>
-</ul>
-</li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#comments">Comments</a><ul class="visible nav section-nav flex-column">
-</ul>
-</li>
-</ul>
-
   </nav></div>
 
 </div></div>
