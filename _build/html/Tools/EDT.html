@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 
 
-<html lang="en" >
+<html lang="fr" >
 
   <head>
     <meta charset="utf-8" />
@@ -121,6 +121,7 @@ commentsRunWhenDOMLoaded(addUtterances);
     <script src="../_static/assets/script/.ipynb_checkpoints/script_blob-checkpoint.js"></script>
     <script src="../_static/assets/script/.ipynb_checkpoints/script_flipping_card-checkpoint.js"></script>
     <script src="../_static/assets/script/.ipynb_checkpoints/slideshow-checkpoint.js"></script>
+    <script src="../_static/translations.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
@@ -133,11 +134,11 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="canonical" href="https://deugz.github.io/nb-profile/_build/html/Tools/EDT.html" />
     <link rel="shortcut icon" href="../_static/logo_SFTP.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
-    <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Ikigai" href="../Ikigai/Ikigai.html" />
+    <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="next" title="RSS Feed" href="../feed.html" />
     <link rel="prev" title="Pomodoro" href="Pomodoro.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:language" content="fr"/>
   </head>
   
   
@@ -145,7 +146,7 @@ const thebe_selector_output = ".output, .cell_output"
 
   
   
-  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <a class="skip-link" href="#main-content">Passer au contenu principal</a>
   
   <input type="checkbox"
           class="sidebar-toggle"
@@ -311,14 +312,20 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Perso</span></p>
 <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../Ikigai/Ikigai.html">Ikigai</a></li>
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="Orga.html">Orga</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="Dashboard.html">Sites Dashboard</a></li>
+<li class="toctree-l2"><a class="reference internal" href="life-calendar.html">Life Calendar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dvpt.html">Dévelopement</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Pomodoro.html">Pomodoro</a></li>
 <li class="toctree-l2 current active"><a class="current reference internal" href="#">Emplois du temps</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../Ikigai/Ikigai.html">Ikigai</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../feed.html">RSS Feed</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Appendices</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../Appendix/Lists.html">Lists</a></li>
 </ul>
 
     </div>
@@ -366,7 +373,7 @@ const thebe_selector_output = ".output, .cell_output"
 
 
 <div class="dropdown dropdown-download-buttons">
-  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Téléchargez cette page">
     <i class="fas fa-download"></i>
   </button>
   <ul class="dropdown-menu">
@@ -375,7 +382,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       <li><a href="../_sources/Tools/EDT.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
-   title="Download source file"
+   title="Télécharger le fichier source"
    data-bs-placement="left" data-bs-toggle="tooltip"
 >
   
@@ -393,7 +400,7 @@ const thebe_selector_output = ".output, .cell_output"
       <li>
 <button onclick="window.print()"
   class="btn btn-sm btn-download-pdf-button dropdown-item"
-  title="Print to PDF"
+  title="Imprimer au format PDF"
   data-bs-placement="left" data-bs-toggle="tooltip"
 >
   
@@ -413,7 +420,7 @@ const thebe_selector_output = ".output, .cell_output"
 
 <button onclick="toggleFullScreen()"
   class="btn btn-sm btn-fullscreen-button"
-  title="Fullscreen mode"
+  title="Mode plein écran"
   data-bs-placement="bottom" data-bs-toggle="tooltip"
 >
   
@@ -427,7 +434,7 @@ const thebe_selector_output = ".output, .cell_output"
 
 <script>
 document.write(`
-  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="clair/sombre" aria-label="clair/sombre" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
     <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
     <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
@@ -437,7 +444,7 @@ document.write(`
 
 <script>
 document.write(`
-  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Recherche" aria-label="Recherche" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass"></i>
   </button>
 `);
@@ -468,11 +475,17 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <div class="tex2jax_ignore mathjax_ignore section" id="emplois-du-temps">
-<h1>Emplois du temps<a class="headerlink" href="#emplois-du-temps" title="Permalink to this heading">#</a></h1>
+<h1>Emplois du temps<a class="headerlink" href="#emplois-du-temps" title="Lien permanent vers cette rubrique">#</a></h1>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">Insérer ici les emplois du temps de Lillian</p>
+<p>Insérer ici les emplois du temps de Lillian</p>
+<ul class="last simple">
+<li>check iframe implementation</li>
+</ul>
 </div>
+<ul class="simple">
+<li><a class="reference external" href="https://docs.google.com/spreadsheets/d/1NE_VWOpXGLNAY4IUegRljR963RRZOxpD_Ol3nFR-TAI/edit?usp=sharing" rel="noopener noreferrer" target="_blank">Link</a></li>
+</ul>
 </div>
 
     <script type="text/x-thebe-config">
@@ -508,19 +521,19 @@ document.write(`
 <div class="prev-next-area">
     <a class="left-prev"
        href="Pomodoro.html"
-       title="previous page">
+       title="page précédente">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
-        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-subtitle">précédent</p>
         <p class="prev-next-title">Pomodoro</p>
       </div>
     </a>
     <a class="right-next"
-       href="../Ikigai/Ikigai.html"
-       title="next page">
+       href="../feed.html"
+       title="page suivante">
       <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Ikigai</p>
+        <p class="prev-next-subtitle">suivant</p>
+        <p class="prev-next-title">RSS Feed</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -543,7 +556,7 @@ document.write(`
   <div class="footer-item">
     
 <p class="component-author">
-By <strong>Vincent Deguin</strong> (with ❤️)
+Par <strong>Vincent Deguin</strong> (with ❤️)
 </p>
 
   </div>

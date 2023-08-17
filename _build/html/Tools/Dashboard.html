@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 
 
-<html lang="en" >
+<html lang="fr" >
 
   <head>
     <meta charset="utf-8" />
@@ -121,6 +121,7 @@ commentsRunWhenDOMLoaded(addUtterances);
     <script src="../_static/assets/script/.ipynb_checkpoints/script_blob-checkpoint.js"></script>
     <script src="../_static/assets/script/.ipynb_checkpoints/script_flipping_card-checkpoint.js"></script>
     <script src="../_static/assets/script/.ipynb_checkpoints/slideshow-checkpoint.js"></script>
+    <script src="../_static/translations.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
@@ -133,11 +134,11 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="canonical" href="https://deugz.github.io/nb-profile/_build/html/Tools/Dashboard.html" />
     <link rel="shortcut icon" href="../_static/logo_SFTP.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
-    <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Pomodoro" href="Pomodoro.html" />
+    <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="next" title="Life Calendar" href="life-calendar.html" />
     <link rel="prev" title="Orga" href="Orga.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:language" content="fr"/>
   </head>
   
   
@@ -145,7 +146,7 @@ const thebe_selector_output = ".output, .cell_output"
 
   
   
-  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <a class="skip-link" href="#main-content">Passer au contenu principal</a>
   
   <input type="checkbox"
           class="sidebar-toggle"
@@ -311,14 +312,20 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Perso</span></p>
 <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../Ikigai/Ikigai.html">Ikigai</a></li>
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="Orga.html">Orga</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
 <li class="toctree-l2 current active"><a class="current reference internal" href="#">Sites Dashboard</a></li>
+<li class="toctree-l2"><a class="reference internal" href="life-calendar.html">Life Calendar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dvpt.html">Dévelopement</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Pomodoro.html">Pomodoro</a></li>
 <li class="toctree-l2"><a class="reference internal" href="EDT.html">Emplois du temps</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../Ikigai/Ikigai.html">Ikigai</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../feed.html">RSS Feed</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Appendices</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../Appendix/Lists.html">Lists</a></li>
 </ul>
 
     </div>
@@ -366,7 +373,7 @@ const thebe_selector_output = ".output, .cell_output"
 
 
 <div class="dropdown dropdown-download-buttons">
-  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Téléchargez cette page">
     <i class="fas fa-download"></i>
   </button>
   <ul class="dropdown-menu">
@@ -375,7 +382,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       <li><a href="../_sources/Tools/Dashboard.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
-   title="Download source file"
+   title="Télécharger le fichier source"
    data-bs-placement="left" data-bs-toggle="tooltip"
 >
   
@@ -393,7 +400,7 @@ const thebe_selector_output = ".output, .cell_output"
       <li>
 <button onclick="window.print()"
   class="btn btn-sm btn-download-pdf-button dropdown-item"
-  title="Print to PDF"
+  title="Imprimer au format PDF"
   data-bs-placement="left" data-bs-toggle="tooltip"
 >
   
@@ -413,7 +420,7 @@ const thebe_selector_output = ".output, .cell_output"
 
 <button onclick="toggleFullScreen()"
   class="btn btn-sm btn-fullscreen-button"
-  title="Fullscreen mode"
+  title="Mode plein écran"
   data-bs-placement="bottom" data-bs-toggle="tooltip"
 >
   
@@ -427,7 +434,7 @@ const thebe_selector_output = ".output, .cell_output"
 
 <script>
 document.write(`
-  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="clair/sombre" aria-label="clair/sombre" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
     <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
     <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
@@ -437,7 +444,7 @@ document.write(`
 
 <script>
 document.write(`
-  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Recherche" aria-label="Recherche" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass"></i>
   </button>
 `);
@@ -461,13 +468,13 @@ document.write(`
         <div id="jb-print-toc">
             
             <div>
-                <h2> Contents </h2>
+                <h2> Contenu </h2>
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#home">Home</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#science">Science</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#education">Education</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#l-education">l’Education</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#music">Music</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pharmacy">Pharmacy</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#politique">Politique</a></li>
@@ -483,9 +490,80 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <div class="tex2jax_ignore mathjax_ignore section" id="sites-dashboard">
-<h1>Sites Dashboard<a class="headerlink" href="#sites-dashboard" title="Permalink to this heading">#</a></h1>
+<h1>Sites Dashboard<a class="headerlink" href="#sites-dashboard" title="Lien permanent vers cette rubrique">#</a></h1>
 <div class="section" id="home">
-<h2>Home<a class="headerlink" href="#home" title="Permalink to this heading">#</a></h2>
+<h2>Home<a class="headerlink" href="#home" title="Lien permanent vers cette rubrique">#</a></h2>
+<div class="full-width docutils">
+<p class="emphase2"> <strong>SP-Encyclopedia</strong></p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<blockquote class="epigraph">
+<div>Quick description</div></blockquote>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<img alt="../_images/Encyclopedia-logo.png" src="../_images/Encyclopedia-logo.png" />
+</div>
+</div>
+</div>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+Infos<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-3 sd-row-cols-xs-3 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
+<div class="sd-col sd-d-flex-column sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<br>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Encyclopedia-Home</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<br>
+<ul class="simple">
+<li><p class="sd-card-text first"><strong>Status</strong>: 💚</p>
+</li>
+<li><p class="sd-card-text first"><strong>Version</strong>: 0.1</p>
+</li>
+</ul>
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/Encyclopedia-Home/build/html/index.html" rel="noopener noreferrer" target="_blank"></a></div>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-1 sd-col-xs-1 sd-col-sm-1 sd-col-md-1 sd-col-lg-1 docutils">
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<br>
+<ul class="simple">
+<li><p class="sd-card-text first"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Deugz/Encyclopedia-Home?color=green&amp;style=plastic" /></p>
+</li>
+<li><p class="sd-card-text first"><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Deugz/Encyclopedia-Home?color=yellow&amp;style=plastic" /></p>
+</li>
+<li><p class="sd-card-text first"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Deugz/Encyclopedia-Home?color=red&amp;style=plastic" /></p>
+</li>
+<li><p class="sd-card-text first"><img alt="visitors" src="https://page-views.glitch.me/badge?page_id=https://deugz.github.io/Encyclopedia-Home/_build/html/intro.html" /></p>
+</li>
+<li><p class="sd-card-text first"><img alt="watchers" src="https://img.shields.io/github/watchers/Deugz/nb-profile?style=social" /></p>
+</li>
+<li><p class="sd-card-text first"><img alt="stars" src="https://img.shields.io/github/stars/Deugz/nb-profile?style=social" /></p>
+</li>
+</ul>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<br>
+<blockquote class="trello-board-compact"> 
+  <a href="https://trello.com/b/6fSWY6uW/encyclopedia-home">Trello Card</a>
+</blockquote>
+<script src="https://p.trellocdn.com/embed.min.js"></script>
+</div>
+</div>
+</div>
+<br>
+<br>
+</div>
+</details></div>
 <div class="full-width docutils">
 <p class="emphase2"> <strong>jb-profile</strong></p>
 <details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
@@ -512,7 +590,7 @@ Infos<div class="sd-summary-down docutils">
 </li>
 </ul>
 </div>
-<a class="sd-stretched-link reference external" href="https://deugz.github.io/Encyclopedia-Home/build/html/index.html" rel="noopener noreferrer" target="_blank"></a></div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/nb-profile/build/html/index.html" rel="noopener noreferrer" target="_blank"></a></div>
 </div>
 <div class="sd-col sd-d-flex-column sd-col-1 sd-col-xs-1 sd-col-sm-1 sd-col-md-1 sd-col-lg-1 docutils">
 </div>
@@ -546,21 +624,354 @@ Infos<div class="sd-summary-down docutils">
 <br>
 </div>
 </details></div>
+<div class="full-width docutils">
+<p class="emphase2"> <strong>ab-blog</strong></p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+Infos<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-3 sd-row-cols-xs-3 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
+<div class="sd-col sd-d-flex-column sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<br>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>ab-blog</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<br>
+<ul class="simple">
+<li><p class="sd-card-text first"><strong>Status</strong>: 💚</p>
+</li>
+<li><p class="sd-card-text first"><strong>Version</strong>: 0.1</p>
+</li>
+</ul>
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/ab-blog/_website/index.html" rel="noopener noreferrer" target="_blank"></a></div>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-1 sd-col-xs-1 sd-col-sm-1 sd-col-md-1 sd-col-lg-1 docutils">
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<br>
+<ul class="simple">
+<li><p class="sd-card-text first"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Deugz/ab-blog?color=green&amp;style=plastic" /></p>
+</li>
+<li><p class="sd-card-text first"><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Deugz/ab-blog?color=yellow&amp;style=plastic" /></p>
+</li>
+<li><p class="sd-card-text first"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Deugz/ab-blog?color=red&amp;style=plastic" /></p>
+</li>
+<li><p class="sd-card-text first"><img alt="visitors" src="https://page-views.glitch.me/badge?page_id=https://deugz.github.io/ab-blog/_build/html/intro.html" /></p>
+</li>
+<li><p class="sd-card-text first"><img alt="watchers" src="https://img.shields.io/github/watchers/Deugz/ab-blog?style=social" /></p>
+</li>
+<li><p class="sd-card-text first"><img alt="stars" src="https://img.shields.io/github/stars/Deugz/ab-blog?style=social" /></p>
+</li>
+</ul>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<br>
+<blockquote class="trello-board-compact"> 
+  <a href="https://trello.com/b/KZkaBjJc/ab-blog">Trello Card</a>
+</blockquote>
+<script src="https://p.trellocdn.com/embed.min.js"></script>
+</div>
+</div>
+</div>
+<br>
+<br>
+</div>
+</details></div>
+<div class="full-width docutils">
+<p class="emphase2"> <strong>nb-tools</strong></p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+Infos<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-3 sd-row-cols-xs-3 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
+<div class="sd-col sd-d-flex-column sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<br>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>nb-tools</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<br>
+<ul class="simple">
+<li><p class="sd-card-text first"><strong>Status</strong>: 💚</p>
+</li>
+<li><p class="sd-card-text first"><strong>Version</strong>: 0.1</p>
+</li>
+</ul>
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/nb-tools/_build/html/intro.html" rel="noopener noreferrer" target="_blank"></a></div>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-1 sd-col-xs-1 sd-col-sm-1 sd-col-md-1 sd-col-lg-1 docutils">
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<br>
+<ul class="simple">
+<li><p class="sd-card-text first"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Deugz/nb-tools?color=green&amp;style=plastic" /></p>
+</li>
+<li><p class="sd-card-text first"><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Deugz/nb-tools?color=yellow&amp;style=plastic" /></p>
+</li>
+<li><p class="sd-card-text first"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Deugz/nb-tools?color=red&amp;style=plastic" /></p>
+</li>
+<li><p class="sd-card-text first"><img alt="visitors" src="https://page-views.glitch.me/badge?page_id=https://deugz.github.io/nb-tools/_build/html/intro.html" /></p>
+</li>
+<li><p class="sd-card-text first"><img alt="watchers" src="https://img.shields.io/github/watchers/Deugz/nb-tools?style=social" /></p>
+</li>
+<li><p class="sd-card-text first"><img alt="stars" src="https://img.shields.io/github/stars/Deugz/nb-tools?style=social" /></p>
+</li>
+</ul>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<br>
+<blockquote class="trello-board-compact"> 
+  <a href="https://trello.com/b/oTZzLu6s/jb-tools">Trello Card</a>
+</blockquote>
+<script src="https://p.trellocdn.com/embed.min.js"></script>
+</div>
+</div>
+</div>
+<br>
+<br>
+</div>
+</details></div>
 </div>
 <div class="section" id="science">
-<h2>Science<a class="headerlink" href="#science" title="Permalink to this heading">#</a></h2>
+<h2>Science<a class="headerlink" href="#science" title="Lien permanent vers cette rubrique">#</a></h2>
+<div class="full-width docutils">
+<p class="emphase2"> <strong>sp-Science_Journey</strong></p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<blockquote class="epigraph">
+<div>Quick description</div></blockquote>
 </div>
-<div class="section" id="education">
-<h2>Education<a class="headerlink" href="#education" title="Permalink to this heading">#</a></h2>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<img alt="../_images/logo_SFTP.png" src="../_images/logo_SFTP.png" />
+</div>
+</div>
+</div>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+Infos<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-3 sd-row-cols-xs-3 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
+<div class="sd-col sd-d-flex-column sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<br>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Encyclopedia-Home</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<br>
+<ul class="simple">
+<li><p class="sd-card-text first"><strong>Status</strong>: 💚</p>
+</li>
+<li><p class="sd-card-text first"><strong>Version</strong>: 0.1</p>
+</li>
+</ul>
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/sp-Science_Journey/build/html/index.html" rel="noopener noreferrer" target="_blank"></a></div>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-1 sd-col-xs-1 sd-col-sm-1 sd-col-md-1 sd-col-lg-1 docutils">
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<br>
+<ul class="simple">
+<li><p class="sd-card-text first"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Deugz/sp-Science_Journey?color=green&amp;style=plastic" /></p>
+</li>
+<li><p class="sd-card-text first"><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Deugz/sp-Science_Journey?color=yellow&amp;style=plastic" /></p>
+</li>
+<li><p class="sd-card-text first"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Deugz/sp-Science_Journey?color=red&amp;style=plastic" /></p>
+</li>
+<li><p class="sd-card-text first"><img alt="visitors" src="https://page-views.glitch.me/badge?page_id=https://deugz.github.io/sp-Science_Journey/_build/html/intro.html" /></p>
+</li>
+<li><p class="sd-card-text first"><img alt="watchers" src="https://img.shields.io/github/watchers/Deugz/sp-Science_Journey?style=social" /></p>
+</li>
+<li><p class="sd-card-text first"><img alt="stars" src="https://img.shields.io/github/stars/Deugz/sp-Science_Journey?style=social" /></p>
+</li>
+</ul>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<br>
+<blockquote class="trello-board-compact"> 
+  <a href="https://trello.com/b/4ytZdAvP/science-3a">Trello Card</a>
+</blockquote>
+<script src="https://p.trellocdn.com/embed.min.js"></script>
+</div>
+</div>
+</div>
+<br>
+<br>
+</div>
+</details></div>
+</div>
+<div class="section" id="l-education">
+<h2>l’Education<a class="headerlink" href="#l-education" title="Lien permanent vers cette rubrique">#</a></h2>
+<div class="full-width docutils">
+<p class="emphase2"> <strong>sp-Education_Journey</strong></p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<blockquote class="epigraph">
+<div>Quick description</div></blockquote>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<img alt="../_images/logo_SFTP.png" src="../_images/logo_SFTP.png" />
+</div>
+</div>
+</div>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+Infos<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-3 sd-row-cols-xs-3 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
+<div class="sd-col sd-d-flex-column sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<br>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>sp-Education_Journey</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<br>
+<ul class="simple">
+<li><p class="sd-card-text first"><strong>Status</strong>: 💚</p>
+</li>
+<li><p class="sd-card-text first"><strong>Version</strong>: 0.1</p>
+</li>
+</ul>
+</div>
+<a class="sd-stretched-link reference external" href="sp-Education_Journey" rel="noopener noreferrer" target="_blank"></a></div>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-1 sd-col-xs-1 sd-col-sm-1 sd-col-md-1 sd-col-lg-1 docutils">
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<br>
+<ul class="simple">
+<li><p class="sd-card-text first"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Deugz/sp-Education_Journey?color=green&amp;style=plastic" /></p>
+</li>
+<li><p class="sd-card-text first"><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Deugz/sp-Education_Journey?color=yellow&amp;style=plastic" /></p>
+</li>
+<li><p class="sd-card-text first"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Deugz/sp-Education_Journey?color=red&amp;style=plastic" /></p>
+</li>
+<li><p class="sd-card-text first"><img alt="visitors" src="https://page-views.glitch.me/badge?page_id=https://deugz.github.io/sp-Education_Journey/_build/html/intro.html" /></p>
+</li>
+<li><p class="sd-card-text first"><img alt="watchers" src="https://img.shields.io/github/watchers/Deugz/sp-Education_Journey?style=social" /></p>
+</li>
+<li><p class="sd-card-text first"><img alt="stars" src="https://img.shields.io/github/stars/Deugz/sp-Education_Journey?style=social" /></p>
+</li>
+</ul>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<br>
+<blockquote class="trello-board-compact"> 
+  <a href="https://trello.com/b/BWm0n89e/curiouschool">Trello Card</a>
+</blockquote>
+<script src="https://p.trellocdn.com/embed.min.js"></script>
+</div>
+</div>
+</div>
+<br>
+<br>
+</div>
+</details></div>
 </div>
 <div class="section" id="music">
-<h2>Music<a class="headerlink" href="#music" title="Permalink to this heading">#</a></h2>
+<h2>Music<a class="headerlink" href="#music" title="Lien permanent vers cette rubrique">#</a></h2>
+<div class="full-width docutils">
+<p class="emphase2"> <strong>sp-Hiphop_Journey</strong></p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<blockquote class="epigraph">
+<div>Quick description</div></blockquote>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<img alt="../_images/HLA-Logo.png" src="../_images/HLA-Logo.png" />
+</div>
+</div>
+</div>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+Infos<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-3 sd-row-cols-xs-3 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
+<div class="sd-col sd-d-flex-column sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<br>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>sp-Hiphop_Journey</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<br>
+<ul class="simple">
+<li><p class="sd-card-text first"><strong>Status</strong>: 💚</p>
+</li>
+<li><p class="sd-card-text first"><strong>Version</strong>: 0.1</p>
+</li>
+</ul>
+</div>
+<a class="sd-stretched-link reference external" href="https://deugz.github.io/sp-Hiphop_Journey/build/html/index.html" rel="noopener noreferrer" target="_blank"></a></div>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-1 sd-col-xs-1 sd-col-sm-1 sd-col-md-1 sd-col-lg-1 docutils">
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<br>
+<ul class="simple">
+<li><p class="sd-card-text first"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Deugz/sp-Hiphop_Journey?color=green&amp;style=plastic" /></p>
+</li>
+<li><p class="sd-card-text first"><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Deugz/sp-Hiphop_Journey?color=yellow&amp;style=plastic" /></p>
+</li>
+<li><p class="sd-card-text first"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Deugz/sp-Hiphop_Journey?color=red&amp;style=plastic" /></p>
+</li>
+<li><p class="sd-card-text first"><img alt="visitors" src="https://page-views.glitch.me/badge?page_id=https://deugz.github.io/sp-Hiphop_Journey/_build/html/intro.html" /></p>
+</li>
+<li><p class="sd-card-text first"><img alt="watchers" src="https://img.shields.io/github/watchers/Deugz/sp-Hiphop_Journey?style=social" /></p>
+</li>
+<li><p class="sd-card-text first"><img alt="stars" src="https://img.shields.io/github/stars/Deugz/sp-Hiphop_Journey?style=social" /></p>
+</li>
+</ul>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<br>
+<blockquote class="trello-board-compact"> 
+  <a href="https://trello.com/b/npuxzZ99/hiphop-living-arxiv">Trello Card</a>
+</blockquote>
+<script src="https://p.trellocdn.com/embed.min.js"></script>
+</div>
+</div>
+</div>
+<br>
+<br>
+</div>
+</details></div>
 </div>
 <div class="section" id="pharmacy">
-<h2>Pharmacy<a class="headerlink" href="#pharmacy" title="Permalink to this heading">#</a></h2>
+<h2>Pharmacy<a class="headerlink" href="#pharmacy" title="Lien permanent vers cette rubrique">#</a></h2>
 </div>
 <div class="section" id="politique">
-<h2>Politique<a class="headerlink" href="#politique" title="Permalink to this heading">#</a></h2>
+<h2>Politique<a class="headerlink" href="#politique" title="Lien permanent vers cette rubrique">#</a></h2>
 </div>
 </div>
 
@@ -597,19 +1008,19 @@ Infos<div class="sd-summary-down docutils">
 <div class="prev-next-area">
     <a class="left-prev"
        href="Orga.html"
-       title="previous page">
+       title="page précédente">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
-        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-subtitle">précédent</p>
         <p class="prev-next-title">Orga</p>
       </div>
     </a>
     <a class="right-next"
-       href="Pomodoro.html"
-       title="next page">
+       href="life-calendar.html"
+       title="page suivante">
       <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Pomodoro</p>
+        <p class="prev-next-subtitle">suivant</p>
+        <p class="prev-next-title">Life Calendar</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -627,13 +1038,13 @@ Infos<div class="sd-summary-down docutils">
 
   <div class="sidebar-secondary-item">
   <div class="page-toc tocsection onthispage">
-    <i class="fa-solid fa-list"></i> Contents
+    <i class="fa-solid fa-list"></i> Contenu
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#home">Home</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#science">Science</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#education">Education</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#l-education">l’Education</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#music">Music</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pharmacy">Pharmacy</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#politique">Politique</a></li>
@@ -651,7 +1062,7 @@ Infos<div class="sd-summary-down docutils">
   <div class="footer-item">
     
 <p class="component-author">
-By <strong>Vincent Deguin</strong> (with ❤️)
+Par <strong>Vincent Deguin</strong> (with ❤️)
 </p>
 
   </div>

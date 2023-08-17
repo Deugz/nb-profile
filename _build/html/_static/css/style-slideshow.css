@@ -1,0 +1,29 @@
+.slideshow {
+  position: absolute;
+  z-index: 1;
+  height: auto;
+  max-width: 700px;
+  margin: 50px auto;
+}
+.slideshow * {
+  outline: none;
+}
+.slideshow .slider {
+  box-shadow: 0 20px 50px -25px black;
+}
+.slideshow .slider-track {
+  transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
+}
+.slideshow .item {
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+.slideshow .item img {
+  width: 100%;
+  transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
+  transform: scale(1.2);
+}
+.slideshow .item.slick-active img {
+  transform: scale(1);
+}

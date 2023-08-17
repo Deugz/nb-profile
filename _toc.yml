@@ -28,12 +28,19 @@ parts:
       - file: Friends/Collabs/Lillian
       - file: Friends/Collabs/Ross
   - caption: Perso
-    chapters: 
+    chapters:
+    - file: Ikigai/Ikigai
     - file: Tools/Orga
       sections:
       - file: Tools/Dashboard
+      - file: Tools/life-calendar
+      - file: Tools/dvpt
       - file: Tools/Pomodoro
       - file: Tools/EDT
-    - file: Ikigai/Ikigai
     - file: feed
+  - caption: Appendices
+    chapters:
+    - file: Appendix/Lists
+    
+  
 

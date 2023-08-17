@@ -32,7 +32,7 @@ html:
   use_issues_button         : true
   use_multitoc_numbering    : false
   extra_navbar              : ""
-  extra_footer              : |
+  extra_footer: |
   
       <br><img class="CC_licence" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" alt="Licence CC BY NC SA 2"/>  
    
@@ -52,7 +52,7 @@ sphinx:
   - sphinx.ext.intersphinx
   - sphinx_new_tab_link
   config:
-    language: en
+    language: fr
     bibtex_reference_style: author_year
     html_show_copyright: false
     html_theme_options: {
