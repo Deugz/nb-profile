@@ -12,14 +12,12 @@ s0.parentNode.insertBefore(s1,s0);
 </script>
 <!--End of Tawk.to Script-->
 
-
-
-
 ::::{div} full-width
 
-:::{image} _static/Titles/Title-profile-Viny-2.png
+:::{image} _static/Titles/Title-profile-Viny-5.png
 :width: 100%
 :::
+
 
 <div class="video-div">
 <iframe  id="stickyAnchor" class="v-page-anchor float-left" src="https://www.youtube.com/embed/uHFJ9qhR0VM?enablejsapi=1" frameborder="0" fullscreen width="0" height="0" style="margin:auto;"></iframe>
@@ -30,20 +28,42 @@ s0.parentNode.insertBefore(s1,s0);
 ::::
 
 
+<div id="title-banner">
+
+<script async src="_static/assets/script/script-title-header.js"></script>
+
+    
+</div>
+    
+
 ::::::{div} full-width
+
+<h1> <strong>Mon Profile</strong><br>  </h1>
+
+
+***
 
 :::::{grid} 2
 
 ::::{grid-item}
 :columns: 8
 
-<br>
-<br>
-
-<h1> <strong>Mon Profile</strong></h1>
 
 <p class="emphase2"> <strong>Bienvenue</strong> &nbsp; 👋 </p>
 
+<p class="emphase"> Au coeur de mon réseau sociale de <strong>Partage de Connaissance</strong>, <br> une oeuvre personnel, experimentale, creative, ouverte, collaborative et libre. </p>
+
+
+```{admonition} Avant de commencer
+:class: warning, dropdown
+
+- Ce site est accessible sur ordinateur et mobile via un navigateur web, en revanche il est designé pour se lire uniquement sur un écran d'ordinateur.
+
+- Il se construit de manière organique comme un journal et de nouvelles version sont mise en ligne de manière hebdomadaires. 
+
+<p class="emphase">Prenez le temps de lire </p>
+
+```
 
 ::::
 
@@ -99,6 +119,9 @@ le tout gratuitement et avec plaisir, dans le but de créer un réseau sociale a
 ::::
 
 :::::
+
+<br>
+<br>
 
 ::::::
 
@@ -601,8 +624,6 @@ Insert card to page How do I use online book (in grid) (a coté de paragraphe ex
 
 
 
-
-
 <p class="emphase">Aux <strong>Valeurs</strong> profondément ...</p>
 
 <br>
@@ -678,7 +699,15 @@ Insert card to page How do I use online book (in grid) (a coté de paragraphe ex
 
 :::::::
 
+
+
+
+
+
 ::::::{div} full-width
+
+
+<br>
 
 <p class="emphase2">   
 <strong>Créer 🤯</strong> 
@@ -962,9 +991,7 @@ Insert card to page How do I use online book (in grid) (a coté de paragraphe ex
 Une <strong>base de donnée</strong> personelle, <strong>en ligne et interactive</strong><br>
 </p>
 
-<p class="emphase">   
-Tisse ta propre toile en suivant tes interets<br>
-</p>
+
 
 
 
@@ -974,16 +1001,6 @@ Tisse ta propre toile en suivant tes interets<br>
 Web site architecture
 
 ```
-
-
-```{admonition} idea
-
-- realiser un slideshow avec comme deuxième image les connections qu'il est possible d'établire (same background)
-
-
-```
-
-
 
 :::
 
@@ -995,6 +1012,13 @@ Web site architecture
 ::::::{tab-set}
 
 :::::{tab-item} Overview
+
+```{admonition} idea
+
+- realiser un slideshow avec comme deuxième image les connections qu'il est possible d'établire (same background)
+
+
+```
 
 :::::
 
@@ -1031,16 +1055,24 @@ My second tab with `some code`!
 
 ::::::::
 
+:::{div} full-width
 
-::::::{div} full-width
+<p class="emphase">   
+Et laisse ton esprit naviguer dans cette toile<br>
+</p>
 
-:::{admonition} In progress
-:class: warning, margin
-
-Tout ces projets sont dans leur exploratoire, c'est a dire qu'ils n'ont pour l'instant pas vocation a être partagés.
-
+<p class="codepen" data-height="600" data-theme-id="dark" data-default-tab="js,result" data-slug-hash="zyoEvM" data-user="Dillo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/Dillo/pen/zyoEvM">
+  Spider</a> by Dillon (<a href="https://codepen.io/Dillo">@Dillo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 :::
+
+<br>
+
+::::::{div} full-width
 
 
 > Personelemnt, j'ai créé un site pour chacun de mes interets (ie des chemins que j'ai voulue emprunter dans ma vie). Pour chacun d'entre eux, j'ai éxperimenté les limites de la bureaucratie et j'envisage de tester la méthode que je vous ai décrite plus haut pour chacun de ces domaines
@@ -1050,6 +1082,14 @@ Tout ces projets sont dans leur exploratoire, c'est a dire qu'ils n'ont pour l'i
 <br>
 
 ::::::
+
+:::{admonition} In progress
+:class: warning, margin
+
+Tout ces projets sont dans leur exploratoire, c'est a dire qu'ils n'ont pour l'instant pas vocation a être partagés.
+
+
+:::
 
 
 :::{div} full-width

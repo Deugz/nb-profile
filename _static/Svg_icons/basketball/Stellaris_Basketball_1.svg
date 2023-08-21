@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="159.30359" height="173.68251" version="1.0">
+  <defs>
+    <filter id="a" width="1.706847" height="1.6718206" x="-.35342348" y="-.33591035">
+      <feGaussianBlur stdDeviation="17.332173"/>
+    </filter>
+  </defs>
+  <g transform="translate(-566.124551 -681.853591) scale(.8846)">
+    <path fill="#483737" fill-rule="evenodd" stroke="#666" stroke-width="1.26306665" d="M357.43805 503.05682a49.67123 49.67123 0 1 1-99.34247 0 49.67123 49.67123 0 1 1 99.34247 0z" color="#000" enable-background="accumulate" filter="url(#a)" overflow="visible" style="marker:none" transform="matrix(1.08031 0 0 .25246 394.99736 796.83441)"/>
+    <path fill="#f60" fill-rule="evenodd" stroke="#333" stroke-width="1.26306665" d="M357.43805 503.05682a49.67123 49.67123 0 1 1-99.34247 0 49.67123 49.67123 0 1 1 99.34247 0z" color="#000" enable-background="accumulate" overflow="visible" style="marker:none" transform="matrix(1.34946 0 0 1.42046 301.41468 137.79141)"/>
+    <path fill="#d45500" fill-rule="evenodd" d="M724.30238 782.25674c14.97451 12.94329 24.52816 32.55293 24.52816 54.52499-.00001 38.94697-30.00624 70.56009-67.00634 70.56009-2.56935 0-5.12239-.15182-7.61678-.44853 11.57307 10.01454 26.39166 16.03511 42.53145 16.03511 37.0001 0 67.03298-31.61313 67.03297-70.56009 0-36.25198-26.03037-66.14796-59.46946-70.11157z" color="#000" enable-background="accumulate" overflow="visible" style="marker:none"/>
+    <path fill="none" stroke="#e3dbdb" stroke-width=".65577048" d="M649.73866 848.51925s18.02142-36.28347 65.47742-40.08684c51.25563-4.1079 66.48396 24.68746 66.48396 24.68746" color="#000" enable-background="accumulate" overflow="visible" style="marker:none"/>
+    <path fill="none" stroke="#666" stroke-width="1.74872124" d="M649.73866 850.31339s18.02142-36.89481 65.47742-40.69819c51.25563-4.1079 66.48396 25.2988 66.48396 25.2988"/>
+    <path fill="none" stroke="#e3dbdb" stroke-width=".65577048" d="M712.32002 781.85784s-40.48768 11.30584-37.43552 40.49344c3.7072 35.15559 103.05186 55.35002 103.05186 55.35002" color="#000" enable-background="accumulate" overflow="visible" style="marker:none"/>
+    <path fill="none" stroke="#4d4d4d" stroke-width="1.74872124" d="M714.29411 781.85784s-41.2423 11.30584-38.19014 40.49344c3.7072 35.15559 103.26721 54.49854 103.26721 54.49854" color="#000" enable-background="accumulate" overflow="visible" style="marker:none"/>
+    <path fill="none" stroke="#e3dbdb" stroke-width=".65577048" d="M663.01361 809.02283s-11.13194 29.46763 18.90344 76.22635c21.82091 33.97055 63.48004 30.6634 63.48004 30.6634" color="#000" enable-background="accumulate" overflow="visible" style="marker:none"/>
+    <path fill="none" stroke="#4d4d4d" stroke-width="1.74872124" d="M664.00454 809.02283s-11.12402 29.46763 19.41536 76.12025c22.10427 33.76695 64.0384 29.83067 64.0384 29.83067" color="#000" enable-background="accumulate" overflow="visible" style="marker:none"/>
+    <path fill="none" stroke="#e3dbdb" stroke-width=".65577048" d="M652.47764 831.39149s-2.78107 12.4334.24379 29.16801c3.02486 16.73461 11.62483 36.61126 11.62483 36.61126" color="#000" enable-background="accumulate" overflow="visible" style="marker:none"/>
+    <path fill="none" stroke="#4d4d4d" stroke-width="1.74872124" d="M652.74926 831.27547s-1.89933 12.54942 1.12553 29.28403c3.02486 16.73461 11.29418 36.72727 11.29418 36.72727" color="#000" enable-background="accumulate" overflow="visible" style="marker:none"/>
+    <path fill="none" stroke="#4d4d4d" stroke-width="1.74872124" d="M649.73866 850.31339s18.02142-36.89481 65.47742-40.69819c51.25563-4.1079 66.48396 25.2988 66.48396 25.2988"/>
+    <path fill="none" d="M357.43805 503.05682a49.67123 49.67123 0 1 1-99.34247 0 49.67123 49.67123 0 1 1 99.34247 0z" color="#000" enable-background="accumulate" overflow="visible" style="marker:none" transform="matrix(1.34946 0 0 1.42046 301.41468 137.79141)"/>
+    <path fill="none" stroke="#4d4d4d" stroke-width="1.26306665" d="M357.43805 503.05682a49.67123 49.67123 0 1 1-99.34247 0 49.67123 49.67123 0 1 1 99.34247 0z" color="#000" enable-background="accumulate" overflow="visible" style="marker:none" transform="matrix(1.34946 0 0 1.42046 301.41468 137.79141)"/>
+  </g>
+</svg>
