@@ -903,10 +903,20 @@ function clickCanvas() {
 // beginning of execution
 
   {
+      
+    // Get a reference to the div element where you want the canvas to appear
+    const canvasContainer = document.getElementById('title-banner');
+
+    // Create a canvas element
+      
     canv = document.createElement('canvas');
     canv.style.position="absolute";
     canv.addEventListener('click',clickCanvas);
-    document.body.appendChild(canv);
+      
+      
+    // Append the canvas element to the div
+    canvasContainer.appendChild(canv);
+    //document.body.appendChild(canv);
     ctx=canv.getContext('2d');
   } // canvas creation
 
