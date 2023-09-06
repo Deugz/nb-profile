@@ -31,12 +31,7 @@ html:
   use_repository_button     : true
   use_issues_button         : true
   use_multitoc_numbering    : false
-  extra_navbar              : ""
-  extra_footer: |
-  
-      <br><img class="CC_licence" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" alt="Licence CC BY NC SA 2"/>  
-   
-   
+  extra_navbar              : "" 
   google_analytics_id       : G-6PKM0BESDG  
   home_page_in_navbar       : false
   baseurl                   : "https://deugz.github.io/nb-profile/_build/html/"

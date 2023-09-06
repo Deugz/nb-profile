@@ -7,7 +7,7 @@ parts:
   - caption: ""
     chapters:
     - file: Comment
-  - caption: 👤 Infos
+  - caption: 👤 Infos 
     chapters:
     - file: Profile    
     - file: CV/CV_Main
