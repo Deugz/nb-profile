@@ -6,6 +6,42 @@ May be we need to transfer this stuff to Encyclopedia ?
 
 ```
 
+## Introduction
+
+### Mieux Apprendre et étudier
+
+:::::{div} full-width
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 6
+
+Description:
+
+Mieux Apprendre et étudier
+- Description du personnage
+
+:::
+
+
+:::{grid-item}
+:columns: 6
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RVB3PBPxMWg?si=JcWmYsoqIZPXSmQ_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+:::
+
+::::
+
+:::::
+
+### Mieux enseigner
+
+blabla
+
+
 
 ## **Teaching**
 

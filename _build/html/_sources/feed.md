@@ -10,6 +10,12 @@ This is an attempt to create a list of RSS feeds from the websites I am interest
 
 ```
 
+## To include
+
+- [CNRS le journal](https://lejournal.cnrs.fr/)
+
+- [Mr Mondialisation](https://mrmondialisation.org/category/articles/)
+
 ## Websites
 
 ### Information is beautifull

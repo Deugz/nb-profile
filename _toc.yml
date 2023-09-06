@@ -7,27 +7,34 @@ parts:
   - caption: ""
     chapters:
     - file: Comment
-  - caption: Infos
+  - caption: 👤 Infos
     chapters:
     - file: Profile    
     - file: CV/CV_Main
     - file: CV/Web-Dev
     - file: Playlist/Playlist
-  - caption: Interests
+  - caption: 🔧 Projets
+    chapters:
+    - file: Projet/Manifesto
+    - file: Projet/Encyclopedia
+    - file: Projet/Web
+    - file: Projet/Roadmap
+    - file: Projet/Contribute
+  - caption: 🔮 Interests
     chapters:    
     - file: Interests/Scientific-Interests
     - file: Interests/Education
     - file: Interests/Music
     - file: Interests/Pharma
     - file: Interests/Politics    
-  - caption: Friends
+  - caption: 😘 Friends
     chapters:  
     - file: Friends/Friends
     - file: Friends/Collabs/Collab
       sections: 
       - file: Friends/Collabs/Lillian
       - file: Friends/Collabs/Ross
-  - caption: Perso
+  - caption: 💪 Perso
     chapters:
     - file: Ikigai/Ikigai
     - file: Tools/Orga

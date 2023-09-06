@@ -40,7 +40,6 @@ s0.parentNode.insertBefore(s1,s0);
 
 <h1> <strong>Mon Profile</strong><br>  </h1>
 
-
 ***
 
 :::::{grid} 2
@@ -252,9 +251,20 @@ Le but premier de ce siteweb est de créer une conversation et de féderer autou
 :::{grid-item}
 :columns: 5
 
+
+<script>
+
+function pageScroll() {
+    	window.scrollBy(0,2); // horizontal and vertical scroll increments
+    	scrolldelay = setTimeout('pageScroll()',20); // scrolls every 100 milliseconds
+}
+
+</script>
+
+
 <br>
 
-<p class="emphase"><strong> Mon jardin numérique </strong></p>
+<p class="emphase"><strong> Mon jardin numérique </strong> <a href="javascript:pageScroll()"> 🏃 </a> </p>
 
 <br>
 
@@ -304,8 +314,11 @@ Le pouvoir d'<strong>Internet</strong>, potentialisé par les outils et connaiss
 <strong>Construire</strong> 🔨  
 </p> 
 
+***
+
 <p class="emphase"><strong>Nous même</strong> notre profile sociale, en mode <strong>DIY</strong> en fonction de <strong>nos besoins</strong> et suivant nos envies.</p>
 
+<br>
 
 <div id="P1">
     
@@ -315,7 +328,7 @@ Le pouvoir d'<strong>Internet</strong>, potentialisé par les outils et connaiss
 
 Aujourd'hui nous utilisons des plateformes commerciales pour créer et entretenir notre profile (et de surcroît réseau) sociale. Je pense que le tissu sociale d'une personne est la plus grande richesse de cet individue, et confier la gestion de ce réseau a une (ou plusieurs) entreprise a visés commerciales, est une erreure (cf [Blog](https://deugz.github.io/ab-blog/_website/posts/2023/post/)). Elles ne fournissent pas un espace pour contruire la réflexion, mais bien au contraire, dillue l'information dans un flot incessant de contenue dont la provenance est difficilement traçable. De plus, chaque poste représente un jet dans la gueule de l'algorithme qui en retour vous enverra une publicité bien orienté, ou du contenue qui captera votre attention pendant des heures. La vacuité des réseaux sociaux et leur nouvelle armada d'influenceurs me révolte. On mérite mieux que ça, mais il va falloir le créer, et je ne vois pas d'autre option que de le faire ensemble.  
 
-Maitriser les technologies du web me semble être une compétence fondamentale, d'autant plus qu'elles sont open-source et complètement gratuite. En revanche, elles requièrent des compétences spécifiques, donnant l'impression que créer un site soi même est trés difficile, voire impossible ... Je vous garantie que ce n'est pas le cas, et que la méthode que j'utilise, [JupyterBook](https://jupyterbook.org/en/stable/intro.html) est accessible a tous (ou au moins aux personnes qui comme moi, ont grandis avec les ordinateurs)! La première marche est la plus dure a franchire et j'envisage de créer des tutoriels pour expliquer quels outils j'utilise au quotidien et surtout comment je les utilise (avec l'aide des nombreuses ressources open-source disponibles sur internet). Trés rapidement, vous aurez créé et hébergé (gratuitement)  
+Maitriser les technologies du web me semble être une compétence fondamentale, d'autant plus qu'elles sont open-source et complètement gratuite. En revanche, elles requièrent des compétences spécifiques, donnant l'impression que créer un site soi même est trés difficile, voire impossible ... Je vous garantie que ce n'est pas le cas, et que la méthode que j'utilise, [JupyterBook](https://jupyterbook.org/en/stable/intro.html) est accessible a tous (ou au moins aux personnes qui comme moi, ont grandis avec les ordinateurs)! La première marche est la plus dure a franchire et j'envisage de créer des tutoriels pour expliquer quels outils j'utilise au quotidien et surtout comment je les utilise (avec l'aide des nombreuses ressources open-source disponibles sur internet). Trés rapidement, vous aurez créé et hébergé (gratuitement) votre propre site internet:  
 </div>
 
 <div id="subdiv2">
@@ -539,37 +552,13 @@ Text
 </div>
 
 <br>
+<br>
 
 
 
+<p class="emphase">Un <strong>Journal de bord </strong> en ligne (blog), customizable, versatile et <strong>utile</strong></p>
 
-<p class="emphase">Un outil <strong>autobiographique et collaboratif </strong> aux possibilités infinies, a vie et gratuit </p>
-
-
-:::::{grid} 2
-
-::::{grid-item}
-:columns: 8
-
-
-> Pour moi, ce site (qui est le résultat d'une nouvelle méthode de documentation - Jupyter Book), s'apparente a un journal. 
-Il joue le role de **cahier de note**. La différence c'est que j'utilise un écran, un clavier (et quelques logiciels gratuits), plutot qu'une feuille et un stylo, et les avantages sont nombreux:
-
-
-
-::::
-
-::::{grid-item}
-:columns: 4
-
-
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player src="https://lottie.host/287d934c-3686-4e29-899b-26d09f430145/Am3czRvNmZ.json" background="#fff" speed="1" style="width: 100%; height: auto" direction="1" mode="normal" loop autoplay></lottie-player>   
-
-
-::::
-
-:::::
+<br>
 
 
 :::::{grid} 2
@@ -577,10 +566,8 @@ Il joue le role de **cahier de note**. La différence c'est que j'utilise un éc
 ::::{grid-item}
 :columns: 9
 
-Livre 1D.
-
-Method is 2 dimensions, **mapping**
-
+Naviguer sur internet a la recherche d'une information, peut s'avérer une tache hardue: Les sources d'informations sont gigantestques, les connaissances sont fragmentés, et parfois les avis divergent. Deux heures et 40 onglets plus tards, vous aurez trouvé ce que vous cherchiez, mais peut être aurez vous également pris conscience que cette anodine information est en fait bien plus complexe et qu'elle ouvre les portes a de nouvelles réflexions. Pour moi la curiosité est un trés bon défaut, qui requiert un certain nombre d'outils. Comme tout entreprise de recheche, il est nécessaire de prendre des notes. J'ai toujours éprouvé des difficultés avec la prise (et lecture) de notes manuscrites, de plus je trouve la méthode d'incrémentation linéaire (une entrée aprés l'autre) assé restrictive. Utiliser un blog en lieu et place d'un cahier m'apporte de nombreux avantages:
+- Plan (2D vs 1D)
 
 - Ma propre base de donnée, que j'implémente au fil du temps.
   
@@ -590,6 +577,12 @@ Method is 2 dimensions, **mapping**
 - Je favorise ainsi mes processus collaboratifs!
 
 - Le but n'étant pas de convaincre la masse, mais plutot de toucher mon cercle proche.
+
+
+
+> Pour moi, ce site s'apparente a un journal. Je l'utilise principalement comme un outil de prise de note ou je créé les pages en fonction de mes intérets dans le but d'y écrire le fruit de mes recherches dans le sujet.  
+Il joue le role de **cahier de note**. La différence c'est que j'utilise un écran, un clavier (et quelques logiciels gratuits), plutot qu'une feuille et un stylo, et les avantages sont nombreux:
+
 
 ```{note} 
 
@@ -603,8 +596,24 @@ Insert card to page How do I use online book (in grid) (a coté de paragraphe ex
 ::::{grid-item}
 :columns: 3
 
+
+```{image} _static/Images/petit_poucet.jpg
+:width: 100%
+:align: center
+
+```
+
+<br>
+<br>
+
+
+
 <div id="colour">
+
+<p class="emphase"><strong>Usages</strong> </p>
     
+    
+***
 
 <p><img src="_static\Svg_icons\newspaper-svgrepo-com.svg" style="width: 30px;"> &nbsp; <strong>Prise de note</strong></p> 
 <p><img src="_static\Svg_icons\keys-svgrepo-com.svg" style="width: 30px;"> &nbsp; <strong>Idéation</strong></p>
@@ -617,28 +626,42 @@ Insert card to page How do I use online book (in grid) (a coté de paragraphe ex
 </div>   
 
 
+<br>
+<br>
+
+
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://lottie.host/287d934c-3686-4e29-899b-26d09f430145/Am3czRvNmZ.json" background="#fff" speed="1" style="width: 100%; height: auto" direction="1" mode="normal" loop autoplay></lottie-player>   
+
+
 ::::
 
 :::::
 
 
+<p class="emphase">un centre de traitement de l' <strong>Information</strong> </p>
 
-
-<p class="emphase">Aux <strong>Valeurs</strong> profondément ...</p>
+```{figure} Docs/Complete_neuron_cell_diagram_fr.svg
+---
+width: 100%
+name: Complete_neuron_cell_diagram_fr
+---
+Neurone [Source]() - liens vers jb-Physio
+```
 
 <br>
 
-::::{grid} 5
-:gutter: 2
+::::{grid} 3
 
 :::{grid-item}
 
-### Humanistes
+### Construire
     
 <br> 
 
-```{image} _static/SVG_icons/Valeurs/humanitarian-svgrepo-com.svg
-:width: 80%
+```{image} Docs/cellule.png
+:width: 60%
 :align: center
 
 ```
@@ -650,20 +673,121 @@ Insert card to page How do I use online book (in grid) (a coté de paragraphe ex
 
 :::{grid-item}
 
-### Open Sources
+### Consolider
+    
+<br> 
+
+```{image} Docs/myeline.png
+:width: 50%
+:align: center
+
+```
+
+<br>
+
+- Révision par les pères 
+- Oueuvre d'art 
+
+:::
+
+:::{grid-item}
+
+### Disséminer
+    
+<br> 
+
+
+
+```{image} Docs/synapse.png
+:width: 50%
+:align: center
+
+```
+
+<br>
+
+- Artiste, 
+- Oueuvre d'art 
+
+:::
+
+::::
+
+<br>
+
+
+<p class="emphase">Avec des <strong>Valeurs</strong></p>
+
+:::::::
+
+<br>
+
+::::::::{div} full-width
+
+::::::{tab-set}
+
+:::::{tab-item} Humanistes
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+- Artiste, 
+- Oueuvre d'art 
+
+
+:::
+
+
+:::{grid-item}
+:columns: 3
+
+```{image} _static/SVG_icons/Valeurs/humanitarian-svgrepo-com.svg
+:width: 80%
+:align: center
+
+```
+
+:::
+
+::::
+    
+:::::
+    
+:::::{tab-item} Open Sources
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+
+- Jupyter Book
+    
+:::
+   
+
+:::{grid-item}
+:columns: 3
+
 
 ```{image} _static/SVG_icons/Valeurs/Open-Source.svg
 ```
 
-- Jupyter Book
-    
-
-    
+ 
 :::
+
+::::
+    
+:::::
+    
+:::::{tab-item} Accessible
+
+::::{grid} 2
     
 :::{grid-item}
-
-### Accessible
+:columns: 9
     
 <br>    
   
@@ -671,33 +795,155 @@ Insert card to page How do I use online book (in grid) (a coté de paragraphe ex
 
 :::
 
-:::{grid-item} 
+:::{grid-item}
+:columns: 3
 
-### Sociales
 
+```{image} _static/SVG_icons/Valeurs/Open-Source.svg
+```
+
+ 
+:::
+
+::::
+
+:::::
+    
+:::::{tab-item} Sociales
+
+::::{grid} 2
+    
+:::{grid-item}
+:columns: 9
+    
+<br>    
+  
 - Créer du lien
 
-    
 :::
-    
-:::{grid-item} 
 
-### Anarchistes
-    
-- Liberté
-    
+:::{grid-item}
+:columns: 3
+
+
+```{image} _static/SVG_icons/Valeurs/Open-Source.svg
+```
+
+ 
 :::
-    
+
 ::::
+    
+:::::
+
+:::::{tab-item} Anarchistes
+
+::::{grid} 2
+    
+:::{grid-item}
+:columns: 9
+    
+<br>    
+  
+- Liberté
+
+:::
+
+:::{grid-item}
+:columns: 3
+
+
+```{image} _static/SVG_icons/Valeurs/Open-Source.svg
+```
+
+ 
+:::
+
+::::
+    
+:::::
+    
+:::::: 
+    
+:::::::::
+
+
+
+
+
+<br>
+
+
+::::::{div} full-width
 
 <p class="emphase">Celui qui laisse sa trace écrite se donne la possibilité que sa pensée vive partout, et pour toujours</p>
 
+***
+
+<br>
 
 
+<p class="emphase2">   
+<strong>Créer 🤯</strong> 
+</p> 
 
 ***
 
-:::::::
+<br>
+
+<p class="emphase">   
+<strong>Son Contenue </strong>  
+</p>
+
+<br>
+
+:::::{grid} 2
+
+::::{grid-item}
+:columns: 7
+
+Sensation de puissance de pouvoir disposer du contenue que l'on produit afin de pouvoir l'utiliser (le valoriser) a notre guise.
+
+::::
+
+::::{grid-item}
+:columns: 5
+
+
+
+<div class="embedresize">
+<iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/XKaY_N8puZc?si=BHozLtwa4vF-7LbG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<br>
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/354284516&color=%232e6a45&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/deugz" title="Deugz" target="_blank" style="color: #cccccc; text-decoration: none;">Deugz</a> · <a href="https://soundcloud.com/deugz/beatape-for-my-people" title="Beatape for my people" target="_blank" style="color: #cccccc; text-decoration: none;">Beatape for my people</a></div>
+
+::::
+
+:::::
+
+
+```{note}
+
+- Créer un dropdown avec le reste des objets que l'on peut insérer
+    - pdf
+    - excell
+    - pages web ...
+    - code interactif
+
+Créer éventail défilant avec les pages crées qui sont finis ou bien avancé, pages importantes
+
+
+```
+
+
+
+
+::::::
+
+
+
 
 
 
@@ -706,101 +952,44 @@ Insert card to page How do I use online book (in grid) (a coté de paragraphe ex
 
 ::::::{div} full-width
 
-
-<br>
-
-<p class="emphase2">   
-<strong>Créer 🤯</strong> 
-</p> 
-
-
 <br>
 
 <p class="emphase">   
-<strong>Sa Propre Constelation de Sites Internet </strong>  
+Incorporés dans ma <strong> Constelation de Sites Internet </strong>  
 </p>
 
 
 
 <br>
 
-:::::{grid} 5
+```{figure} _static/SVG_files/Map/Map_Encyclopedia.svg
 
-::::{grid-item}
-:columns: 1
-
-
-
-::::
-
-
-::::{grid-item}
-:columns: 3
-
-<br>
-
-:::{card}
-:link: https://deugz.github.io/Encyclopedia-Home/build/html/index.html
-:class-header: bg-light
-
-**Encyclopedia 3.A** ![flag alt >](_static/Svg_icons/web-svgrepo-com.svg)
-^^^
-
-<br>
-
-```{image} _static/Logo/Encyclopedia-logo.png
-
-```
-
-<br>
-<br>
-<br>
-
-
-- **Status**: 💚
-- **Version**: 0.1
-
-:::
-
-<br>
-
-::::
-
-::::{grid-item}
-:columns: 1
-
-
-
-::::
-
-::::{grid-item}
-:columns: 6
-
-
-```{figure} Docs/Creación_de_Adán_crop.jpg
-
-[Source](http://www.monjardinenpermaculture.fr/)
-
-```
-
-::::
-
-::::{grid-item}
-:columns: 1
-
-
-
-::::
-
-
-:::::
-
-
-```{image} _static/Images/Arrow-intro.png
+Web site architecture
 
 ```
 
 
+
+<p class="emphase">   
+Au sein duquel je navigue librement<br>
+</p>
+
+<p class="codepen" data-height="600" data-theme-id="dark" data-default-tab="js,result" data-slug-hash="zyoEvM" data-user="Dillo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/Dillo/pen/zyoEvM">
+  Spider</a> by Dillon (<a href="https://codepen.io/Dillo">@Dillo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+<br>
+<br>
+
+
+<p class="emphase">   
+<strong>Pour héberger ses connaissances et construire sa réflexion </strong>  
+</p>
+
+<br>
 
 :::::{grid} 5
 
@@ -836,18 +1025,6 @@ Insert card to page How do I use online book (in grid) (a coté de paragraphe ex
 
 <br>
 
-:::{dropdown} Plan
-
-- [Background](https://deugz.github.io/jb-background/_build/html/intro.html)
-- [Methods](https://deugz.github.io/jb-method/_build/html/intro.html)
-- [Data/Softwares](https://deugz.github.io/sp-Science_Journey/build/html/content/Sections/Data-Software/Data-Software.html)
-- [Analysis](https://deugz.github.io/jb-analysis/_build/html/intro.html)
-- [Results](https://deugz.github.io/jb-results/_build/html/intro.html)
-- [Publications](https://deugz.github.io/nb-publi/_build/html/intro.html)
-- [hD Thesis](https://deugz.github.io/nb-thesis/_build/html/intro.html)
-
-:::
-
 ::::
 
 
@@ -882,14 +1059,7 @@ Insert card to page How do I use online book (in grid) (a coté de paragraphe ex
 
 <br>
 
-:::{dropdown} Plan
 
-- [Astronomy](https://deugz.github.io/jb-astronomy/_build/html/intro.html)
-- [Chemistry](https://deugz.github.io/jb-chemistry/_build/html/intro.html)
-- [Open Science](https://deugz.github.io/jb-open-science/_build/html/intro.html)
-- ...
-
-:::
 
 ::::
 
@@ -985,124 +1155,181 @@ Insert card to page How do I use online book (in grid) (a coté de paragraphe ex
 
 
 
+::::::{div} full-width
+
+
+```{image} _static/Images/Arrow-intro-titl.png
+
+```
+
+<br>
+<br>
+
+
+:::::{grid} 5
+
+::::{grid-item}
+
+:::{dropdown} Plan
+
+- [Background](https://deugz.github.io/jb-background/_build/html/intro.html)
+- [Methods](https://deugz.github.io/jb-method/_build/html/intro.html)
+- [Data/Softwares](https://deugz.github.io/sp-Science_Journey/build/html/content/Sections/Data-Software/Data-Software.html)
+- [Analysis](https://deugz.github.io/jb-analysis/_build/html/intro.html)
+- [Results](https://deugz.github.io/jb-results/_build/html/intro.html)
+- [Publications](https://deugz.github.io/nb-publi/_build/html/intro.html)
+- [hD Thesis](https://deugz.github.io/nb-thesis/_build/html/intro.html)
+
+:::
+
+
+::::
+
+::::{grid-item}
+
+:::{dropdown} Plan
+
+- [Astronomy](https://deugz.github.io/jb-astronomy/_build/html/intro.html)
+- [Chemistry](https://deugz.github.io/jb-chemistry/_build/html/intro.html)
+- [Open Science](https://deugz.github.io/jb-open-science/_build/html/intro.html)
+- ...
+
+:::
+
+
+::::
+
+::::{grid-item}
+
+:::{dropdown} Plan
+
+- ...
+
+
+:::
+
+::::
+
+::::{grid-item}
+
+:::{dropdown} Plan
+
+- ...
+
+
+:::
+
+::::
+
+::::{grid-item}
+
+:::{dropdown} Plan
+
+- ...
+
+
+:::
+
+::::
+
+:::::
+
+::::::
+
+
 :::{div} full-width
+
+
+```{image} _static/Images/Arrow-intro-solo.png
+
+```
+
+:::
+
+
+
+
+::::::{div} full-width
+
+:::::{grid} 4
+
+::::{grid-item}
+:columns: 2
+
+
+
+::::
+
+
+::::{grid-item}
+:columns: 3
+
+<br>
+
+:::{card}
+:link: https://deugz.github.io/Encyclopedia-Home/build/html/index.html
+:class-header: bg-light
+
+**Encyclopedia 3.A** ![flag alt >](_static/Svg_icons/web-svgrepo-com.svg)
+^^^
+
+<br>
+
+```{image} _static/Logo/Encyclopedia-logo.png
+
+```
+
+<br>
+<br>
+<br>
+
+
+- **Status**: 💚
+- **Version**: 0.1
+
+:::
+
+<br>
+
+::::
+
+::::{grid-item}
+:columns: 1
+
+
+
+::::
+
+::::{grid-item}
+:columns: 6
+
+
+```{figure} Docs/Creación_de_Adán_crop.jpg
+
+[Source](http://www.monjardinenpermaculture.fr/)
+
+```
+
+::::
+
+
+
+:::::
+
+
+
+<br>
+
 
 <p class="emphase">   
 Une <strong>base de donnée</strong> personelle, <strong>en ligne et interactive</strong><br>
 </p>
 
 
-
-
-
-
-```{figure} _static/SVG_files/Map/Map_Encyclopedia.svg
-
-Web site architecture
-
-```
-
-:::
-
-
-::::::::{div} full-width
-
-:::::::{dropdown} More infos
-
-::::::{tab-set}
-
-:::::{tab-item} Overview
-
-```{admonition} idea
-
-- realiser un slideshow avec comme deuxième image les connections qu'il est possible d'établire (same background)
-
-
-```
-
-:::::
-
-
-
-
-:::::{tab-item} Science 3.A
-
-:::::
-
-:::::{tab-item} The CuriouSchool
-My second tab with `some code`!
-:::::
-
-:::::{tab-item} Hiphop Living Arxiv
-My second tab with `some code`!
-:::::
-
-:::::{tab-item} PhysioPharm
-
-J'envisage de digitaliser les cours de pharmacie qui sont actuellements produits et consommés au format papier. Le but etant dans un second temps de créer a partir des documents produits un outil qui puisse etre rendue accessible aux patient dans le but de favoriser l'observance. 
-
-:::::
-
-:::::{tab-item} Politique 3.A
-My second tab with `some code`!
-:::::
-
-
-::::::
-
-
-:::::::
-
-::::::::
-
-:::{div} full-width
-
-<p class="emphase">   
-Et laisse ton esprit naviguer dans cette toile<br>
-</p>
-
-<p class="codepen" data-height="600" data-theme-id="dark" data-default-tab="js,result" data-slug-hash="zyoEvM" data-user="Dillo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/Dillo/pen/zyoEvM">
-  Spider</a> by Dillon (<a href="https://codepen.io/Dillo">@Dillo</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-
-:::
-
-<br>
-
-::::::{div} full-width
-
-
-> Personelemnt, j'ai créé un site pour chacun de mes interets (ie des chemins que j'ai voulue emprunter dans ma vie). Pour chacun d'entre eux, j'ai éxperimenté les limites de la bureaucratie et j'envisage de tester la méthode que je vous ai décrite plus haut pour chacun de ces domaines
-
-
-<br>
-<br>
-
-::::::
-
-:::{admonition} In progress
-:class: warning, margin
-
-Tout ces projets sont dans leur exploratoire, c'est a dire qu'ils n'ont pour l'instant pas vocation a être partagés.
-
-
-:::
-
-
-:::{div} full-width
-
-<p class="emphase">Et les outils pour l'implémenter <strong>tout au long de ta vie.</strong></p>
-
-
-
-
-
 ***
 
-:::
+::::::
+
 
 
 
