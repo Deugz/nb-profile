@@ -36,7 +36,11 @@ parts:
       - file: Friends/Collabs/Ross
   - caption: 💪 Perso
     chapters:
-    - file: Ikigai/Ikigai
+    - file: Perso/Ikigai/Ikigai
+    - file: Perso/Bass/Bass_main
+      sections:
+      - file: Perso/Bass/Exercices
+      - file: Perso/Bass/Songs
     - file: Tools/Orga
       sections:
       - file: Tools/Dashboard

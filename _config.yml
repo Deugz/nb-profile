@@ -32,7 +32,7 @@ html:
   use_issues_button         : true
   use_multitoc_numbering    : false
   extra_navbar              : "" 
-  google_analytics_id       : 'G-R0N1WBZF2P'  
+  google_analytics_id       : G-R0N1WBZF2P  
   home_page_in_navbar       : false
   baseurl                   : "https://deugz.github.io/nb-profile/_build/html/"
   comments:
